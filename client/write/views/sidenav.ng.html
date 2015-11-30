@@ -1,0 +1,39 @@
+<div layout="column" ng-style="{height:currentHeight}" >
+
+  <section layout="row" flex="">
+
+    <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+
+      <md-toolbar >
+          <div style="
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bold;">Knowledge</div>
+      </md-toolbar>
+                <md-input-container>
+                  <label>Search a pool</label>
+                  <input ng-model="searchPool">
+                </md-input-container>
+      <md-content  >
+        <md-list  ng-cloak >
+          <md-list-item ng-repeat="items in listItems | filter:searchPool" ng-click="navto(items.parent)"><!--ng-click="navto(items.navto)"-->
+              <img ng-src="{{items.icon}}" class="md-avatar" alt="{{item.parent}}" />
+              <div class="md-list-item-text" layout="column">
+          <div>{{ items.parent }}</div>
+          <span style="color:rgba(238, 238, 238, 0.38)">{{ items.tags.join(" , ") }}</span>
+        </div>
+          </md-list-item>
+        </md-list>
+      </md-content>
+
+    </md-sidenav>
+
+    <md-content class="flex" md-component-id="right"  ui-view>
+    </md-content>
+
+  </section>
+
+</div>

@@ -1,0 +1,47 @@
+  
+       <md-toolbar>
+          <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" aria-label="Settings" ng-click="toggleLeft()">
+                <span class="icon-menu" style="font-size:24px;" ></span>
+            </md-button>
+            <h2>
+              <span>{{currentpool}} pool , {{trainerscount}} Trainers available</span>
+            </h2>
+              <span flex></span>
+              <h2>{{currentUser}}</h2>
+              <md-button ui-sref="login"  class="md-icon-button " aria-label="logout">
+                <span class="icon-home" style="font-size:23px;" ></span>
+              </md-button>
+               </div>
+    </md-toolbar>
+<div layout="row"   layout-wrap layout-fill>
+     <div flex-sm="100" flex-md="100" flex-gt-md="50"  ng-repeat="items in poolData" >
+         <md-subheader class="md-no-sticky">December Week - {{$index+1}} - timings 9AM to 12 AM slot  has total of {{items[0].weekseekcount}} seekers</md-subheader>
+    <md-list>
+      <md-list-item class="checklist" style="display:inline-block" flex-sm="20" flex-md="20" flex-gt-md="20" ng-repeat="days in items[0].dates" >
+          <md-checkbox ng-change="trackUnselections($parent.$index,days)"  aria-label="check" style="right: 21px;
+    top: -8%;" class="md-secondary" ng-model="days.s"></md-checkbox>
+        <div style="    margin-top: 5px;"> {{ days.d }} </div>
+        <div> {{days.t}}</div>
+      </md-list-item>
+        </md-list>
+         <md-button aria-label="Join pool" ng-click="adddays($index)">
+            Join
+        </md-button>
+        <!--<md-button class="md-raised "  style="color:black" aria-label="Join pool" ng-click="removedays($index)">
+            Quit
+        </md-button>-->
+    <md-radio-group style="display: flex;
+    flex-direction: column;" ng-model="items[0].selctdate" >
+      <md-radio-button ng-repeat="users in items[0].weekusers"  ng-if="users.p!=0" value="{{users.d}}" >
+          {{users.d}} ,  {{users.p}} %
+         <md-progress-linear md-mode="determinate" value="{{users.p}}"></md-progress-linear>
+      </md-radio-button>
+    </md-radio-group>
+         <md-subheader ng-if="trainVisible" class="md-no-sticky">Hurray !! We found your are skillful in {{currentpool}} and  you can train..</md-subheader>
+        <md-button ng-if="trainVisible" class="md-raised md-primary" aria-label="Train pool">
+            Train
+        </md-button>
+    </div>
+        
+</div>

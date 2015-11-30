@@ -1,0 +1,34 @@
+<md-content class="brandpagecontent" flex ng-style="{overflow:'hidden' , height:getSizeoftheLandScape('H') , width:getSizeoftheLandScape('W')}">
+    <section class="titleSection" ng-style="getTextstyle()">
+        <md-content  layout-padding style="background-color: rgb(25, 40, 63);" 
+                    layout="column" >
+    <md-input-container>
+      <label>LDAPID</label>
+      <input ng-model="user.ldap" required>
+    </md-input-container>
+    <!--<md-input-container>
+      <label>Skills (,) separated</label>
+      <input ng-model="user.skills" required>
+    </md-input-container>-->
+    <md-input-container>
+    <md-button ng-click="onLogin();" style="border: 1px solid;">
+            Login
+    </md-button>        
+    </md-input-container>
+  </md-content>
+        <!--<img width="300px" src="logo.png"/>-->
+        <!--<md-button style="    border: 3px solid;
+                              font-size: 3rem;
+                              width: 300px;
+                              padding: 10px;color:rgba(72, 199, 72, 0.36);">
+            IN PROGRESS
+        </md-button>-->
+        
+     <!--   <md-button class="button loginbutton">
+          <md-icon md-svg-icon="action:https"></md-icon>
+          <span> Google</span>
+        </md-button> -->
+    </section>
+    <div ng-init="generateBoxes()"></div>
+    <span ng-repeat="i in boxes" ng-style="i">  </span>
+</md-content> 
