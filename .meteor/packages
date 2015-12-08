@@ -21,3 +21,4 @@ angular:angular-material
 angularui:angular-ui-router
 accounts-ui
 dotansimha:accounts-ui-angular
+accounts-password

@@ -25,6 +25,7 @@ angular.module('Knowledge').controller('poolController', function ($scope, $mete
                  val.indb = true;
                  val.week=index;
                  val.status="seeker";
+                 val.id=val.pool+val.d.split(" ").join("");
                  days.push(val);
              }
          });
@@ -121,7 +122,7 @@ angular.module('Knowledge').controller('poolController', function ($scope, $mete
             }).count();
          var searchregex = ".*"+$stateParams.detail+"*."
           $scope.trainerscount = UserProfiles.find({"skills":{$regex : searchregex,$options: 'i'}}).count();
-         if($scope.currentSkills.indexOf($stateParams.detail.toLowerCase().trim())>-1){
+         if($scope.currentSkills.toLowerCase().indexOf($stateParams.detail.toLowerCase().trim())>-1){
             $scope.trainVisible =   $scope.totalPoolcount>0 ? true:false;
         }else{
             $scope.trainVisible = false;
@@ -130,7 +131,7 @@ angular.module('Knowledge').controller('poolController', function ($scope, $mete
               $scope.poolData[indx][0].weekseekcount = UserProfiles.find({"days.pool":$stateParams.detail,"days.week":Number(indx)}).count();
          
               $scope.poolData[indx][0].dates.forEach(function(ival,iindx){
-                 var p = $scope.totalPoolcount > 0 ? Math.round(UserProfiles.find({"days.pool":$stateParams.detail,"days.d":ival.d}).count() / $scope.totalPoolcount * 100 ) : 0;
+                 var p = $scope.totalPoolcount > 0 ? Math.round(UserProfiles.find({"days.id":$stateParams.detail+ival.d.split(" ").join("")}).count() / $scope.totalPoolcount * 100 ) : 0;
                    $scope.poolData[indx][0].weekusers[iindx].p = p;
                 });
      };
@@ -191,12 +192,7 @@ angular.module('Knowledge').controller('poolController', function ($scope, $mete
      
      (function(){
         $scope.currentUser = JSON.parse(sessionStorage.getItem("user")).ldap;
-        $scope.currentSkills = JSON.parse(sessionStorage.getItem("user")).skills;
-        if($scope.currentSkills.indexOf($stateParams.detail.toLowerCase().trim())>-1){
-            $scope.trainVisible =   $scope.totalPoolcount>0 ? true:false;
-        }else{
-            $scope.trainVisible = false;
-        }
+        $scope.currentSkills = UserProfiles.findOne({_id:$scope.currentUser}).skills || "";
         $scope.curentUserprofile = $meteor.object(UserProfiles, $scope.currentUser,false);
          
          var timer = 0;

@@ -9,19 +9,19 @@
      
      $scope.onLogin= function(){
          var user = angular.copy($scope.user);
-         if(user.ldap!="")
+         if(user.ldap!=""&&user.skills!="")
          var result = UserProfiles.update(
              {_id: user.ldap},
-             {$set: {skills:"JAVA,Mongo-db"}},
+             {$set: {skills:user.skills}},
              { upsert: true });
          if(result){
              sessionStorage.setItem("user",JSON.stringify($scope.user));
-             $location.path("/pool/JAVA");
+             $location.path("/pool/JAVA")
          }
          /*var userProfiles = $meteor.collection(UserProfiles);*/
      };
      
-     $scope.sizeofLine = window.innerWidth > 800 ? 11 : 10;
+     $scope.sizeofLine = window.innerWidth > 800 ? 8 : 10;
      $scope.widthofLine = 1;
      $scope.boxes=[];
      $scope.getSizeoftheLandScape = function(param){
@@ -62,6 +62,7 @@
                  for(var c = 0; c<cols; c++){
                         var indx = Math.floor(Math.random() * (4));
                         var anotherRandomCheck =  Math.random()*4 <= 3 && Math.random()*4 > 1.75? true : false;
+                     var size = Math.random()*10;
                         for(var loop=0;loop<4;loop++){ 
                         if(anotherRandomCheck)
                         if(loop<=2){
@@ -69,8 +70,8 @@
                                     tx:((c+1)*$scope.screenPad+(indx*15)),
                                     ty:((r+1)*$scope.screenPad+(indx*15)),
                                     rot:$scope.angles[indx][loop],
-                                    width: $scope.sizeofLine,
-                                    height: $scope.sizeofLine,
+                                    width: $scope.sizeofLine+size,
+                                    height: $scope.sizeofLine+size,
                                     opacity: Math.random(),
                                     background:"#19283f",
                                     "z-index":"1",
@@ -88,8 +89,8 @@
                                 tx:((c+1)*$scope.screenPad+(indx*15)) + $scope.adjustments[indx][0],
                                 ty:((r+1)*$scope.screenPad+(indx*15))+ $scope.adjustments[indx][1],
                                 rot:$scope.angles[indx][loop],
-                                width: $scope.sizeofLine,
-                                height: $scope.sizeofLine,
+                                width: $scope.sizeofLine+size,
+                                height: $scope.sizeofLine+size,
                                 opacity: Math.random(),
                                 border: $scope.widthofLine+"px #fff",
                                 //background:"#fff",

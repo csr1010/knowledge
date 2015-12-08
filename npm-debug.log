@@ -1,0 +1,1794 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'meteorite' ]
+2 info using npm@1.2.18
+3 info using node@v0.8.23
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'meteorite', null ]
+7 verbose cache add name=undefined spec="meteorite" args=["meteorite",null]
+8 verbose parsed url { pathname: 'meteorite', path: 'meteorite', href: 'meteorite' }
+9 silly lockFile 8f2f99a9-meteorite meteorite
+10 verbose lock meteorite /root/.npm/8f2f99a9-meteorite.lock
+11 silly lockFile 8f2f99a9-meteorite meteorite
+12 silly lockFile 8f2f99a9-meteorite meteorite
+13 verbose addNamed [ 'meteorite', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile bf6d5fee-meteorite meteorite@
+16 verbose lock meteorite@ /root/.npm/bf6d5fee-meteorite.lock
+17 silly addNameRange { name: 'meteorite', range: '', hasData: false }
+18 verbose url raw meteorite
+19 verbose url resolving [ 'https://registry.npmjs.org/', './meteorite' ]
+20 verbose url resolved https://registry.npmjs.org/meteorite
+21 info trying registry request attempt 1 at 04:06:53
+22 verbose etag "D5T967RGDDA3DTVTBQ78I6P3U"
+23 http GET https://registry.npmjs.org/meteorite
+24 http 304 https://registry.npmjs.org/meteorite
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:53 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'cache-control': 'max-age=60',
+25 silly registry.get     etag: '"D5T967RGDDA3DTVTBQ78I6P3U"',
+25 silly registry.get     age: '0',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-jfk1034-JFK',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1449461213.649268,VS0,VE85',
+25 silly registry.get     vary: 'Accept' } ]
+26 verbose etag meteorite from cache
+27 silly addNameRange number 2 { name: 'meteorite', range: '', hasData: true }
+28 silly addNameRange versions [ 'meteorite',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.0.9',
+28 silly addNameRange     '0.0.10',
+28 silly addNameRange     '0.0.11',
+28 silly addNameRange     '0.0.12',
+28 silly addNameRange     '0.0.13',
+28 silly addNameRange     '0.0.14',
+28 silly addNameRange     '0.0.15',
+28 silly addNameRange     '0.0.16',
+28 silly addNameRange     '0.0.17',
+28 silly addNameRange     '0.0.18',
+28 silly addNameRange     '0.0.19',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.4.5',
+28 silly addNameRange     '0.4.6',
+28 silly addNameRange     '0.4.7',
+28 silly addNameRange     '0.4.8',
+28 silly addNameRange     '0.4.9',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.6.4',
+28 silly addNameRange     '0.6.5',
+28 silly addNameRange     '0.6.6',
+28 silly addNameRange     '0.6.7',
+28 silly addNameRange     '0.6.8',
+28 silly addNameRange     '0.6.9',
+28 silly addNameRange     '0.6.10',
+28 silly addNameRange     '0.6.11',
+28 silly addNameRange     '0.6.12',
+28 silly addNameRange     '0.6.13',
+28 silly addNameRange     '0.6.14',
+28 silly addNameRange     '0.6.15',
+28 silly addNameRange     '0.6.16',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.7.4',
+28 silly addNameRange     '0.7.5',
+28 silly addNameRange     '0.7.6',
+28 silly addNameRange     '0.7.7',
+28 silly addNameRange     '0.7.8',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '0.9.2',
+28 silly addNameRange     '0.9.3' ] ]
+29 verbose addNamed [ 'meteorite', '0.9.3' ]
+30 verbose addNamed [ '0.9.3', '0.9.3' ]
+31 silly lockFile a295ca8c-meteorite-0-9-3 meteorite@0.9.3
+32 verbose lock meteorite@0.9.3 /root/.npm/a295ca8c-meteorite-0-9-3.lock
+33 verbose read json /root/.npm/meteorite/0.9.3/package/package.json
+34 silly lockFile a295ca8c-meteorite-0-9-3 meteorite@0.9.3
+35 silly lockFile a295ca8c-meteorite-0-9-3 meteorite@0.9.3
+36 silly lockFile bf6d5fee-meteorite meteorite@
+37 silly lockFile bf6d5fee-meteorite meteorite@
+38 silly resolved [ { name: 'meteorite',
+38 silly resolved     version: '0.9.3',
+38 silly resolved     homepage: 'http://oortcloud.github.com/meteorite',
+38 silly resolved     engines: [ 'node >=0.8.0' ],
+38 silly resolved     description: 'Installer & smart package manager for Meteor',
+38 silly resolved     author:
+38 silly resolved      { name: 'Tom Coleman',
+38 silly resolved        email: 'tom@percolatestudio.com',
+38 silly resolved        url: 'http://percolatestudio.com' },
+38 silly resolved     dependencies:
+38 silly resolved      { ddp: '>=0.3.1 <0.5.0',
+38 silly resolved        underscore: '1.3.3',
+38 silly resolved        wrench: '1.3.9',
+38 silly resolved        fstream: '>=0.1.18',
+38 silly resolved        optimist: '>=0.3.4',
+38 silly resolved        prompt: '0.2.11',
+38 silly resolved        colors: '0.6.0-1',
+38 silly resolved        async: '0.2.9',
+38 silly resolved        rolling_timeout_exec: '>=0.0.1' },
+38 silly resolved     devDependencies: { mocha: '>=1.2.2', connect: '>=2.3.6', which: '>=1.0.5' },
+38 silly resolved     scripts:
+38 silly resolved      { test: 'mocha spec/unit spec/acceptance -t 240000 -R spec',
+38 silly resolved        flushcache: 'rm -rf spec/support/cache',
+38 silly resolved        postinstall: 'sh ./completions/postinstall.sh' },
+38 silly resolved     repository:
+38 silly resolved      { type: 'git',
+38 silly resolved        url: 'https://github.com/oortcloud/meteorite.git' },
+38 silly resolved     bin: { mrt: './bin/mrt.js' },
+38 silly resolved     readme: '# Meteorite\n\n*NOTE: As of [Meteor 0.9.0](https://www.meteor.com/blog/2014/08/26/meteor-090-new-packaging-system), Meteorite is no longer required! You can now install [Atmosphere packages](https://atmospherejs.com) directly via the `meteor` tool.*\n\n\nMeteorite is a Meteor package installer.\n\nIt provides an easy way to install Meteor packages into your project from sources such as git and the filesystem. \n\nIt also gives a (now deprecated) method of publishing and installing packages from the [Old Atmosphere Server](http://old-atmosphere.meteor.com). Please note that the latest and greatest packages are on the [Real Atmosphere Server](https://atmospherejs.com) and can be installed directly with Meteor.\n\n\n## Installing Meteorite\n\nMeteorite can be installed via [npm](https://npmjs.org/).\n\n``` sh\n$ npm install -g meteorite\n```\n\n### NOTE:\nIf your system requires root access to install global npm packages, make sure you use the `-H` flag:\n\n``` sh\n$ sudo -H npm install -g meteorite\n```\n\n\n### NOTES\n\n- Meteor is not officially supported on windows; you can run it thanks to [Tom Wijman\'s excellent work](http://win.meteor.com). However, meteorite\'s git based approach runs counter to the MSI installation that\'s required to get it working. So meteorite *does not* work under windows right now. Pull Requests which change this would be gladly accepted! Also, see [this blog post](http://www.discovermeteor.com/2013/03/20/using-meteor-and-atmopshere-on-windows/) for some information about how to use it.\n\n- You\'ll also need to ensure you have [git](http://git-scm.com) installed and available in your path. Also, you\'ll need to make sure that `mrt`\'s install location (usually `/usr/local/bin/`) is on your path.\n\n\n## Usage\n\n### `smart.json`\n\nList your packages in a `smart.json` file in the top level of the project. There are two (non-deprecated) ways to include packages:\n\n```\n{\n  "packages": {\n    "my:fork": {\n      "git": "https://github.com/my/fork.git"\n    },\n    "local:version": {\n      "path": "to/the/package/"\n    }\n  }\n}\n```\n\n\n### `mrt install`\n\nInstall all packages listed in `smart.json` that aren\'t already installed on your machine. Use this command if you are working collaboratively and your colleagues install new packages (`smart.lock` changes).\n\n### `mrt update`\n\nInstalls any available updates to the app\'s desired Meteor version and packages -- use this if a new version is available on git, for instance.\n\n\n### `mrt link-package path/to/foo`\n\nLinks `packages/foo` to `path/to/foo` so that you can use a local version without changing `smart.json`. Useful for quick changes to a package you maintain when developing an application. \n\nNote that `mrt install` or `mrt` will _overwrite_ this link if you also have `foo` in your `smart.json` (which you probably will). This may change in the future.\n\n\n\n\n\n## Options\n\nOptions can be passed at the very end of the command.\n\n### `--verbose`\n\nLog debug information to the console.\n\nExample: `mrt add crypto-sha1 --verbose`\n\n## Deprecated commands\n\nAs Meteorite now installs packages into the `packages/` directory, you can simply run `meteor` to start your app. You may need to run `mrt install` first.\nYou can run any meteor executable you like (e.g. from a checkout somewhere on your machine). \n\n### `mrt`\n\nWorks like `meteor`, but checks and installs the app\'s desired Meteor version and package dependencies before running the app. You may still want to use this, but it\'s no longer the official way to use Meteorite.\n\nIf however you want to use a forked version of Meteor in your project, you can still list it in your `smart.json`, and Meteorite will run it via `mrt`. (Of course you could just run it directly from a checkout too, which may be simpler).\n\n\n\n### `mrt add <package>`\n\nWorks like `meteor add`, but if the package isn\'t one of Meteor\'s included packages, it installs it from [Old Atmosphere](https://old-atmosphere.meteor.com).\n\nUnlike `meteor add`, only one package can be added at a time with `mrt add`.\n\n``` sh\n# Add the latest version of the moment package on Atmosphere.\n$ mrt add moment\n# Add a specific version of a package.\n$ mrt add router --pkg-version 0.3.4\n# Meteorite will install page.js too, because router depends on it.\n```\n\nNote the packages on the old site are only likely to work with Meteor < 0.9.0.\n\n### `mrt remove <package>`\n\nSimilarly, removes a package from `smart.json`, and unlinks it from your project (as well as telling Meteor not to use it).\n\n\n### Other commands\n\nWhen Meteorite is executed for an app, it checks or installs the app\'s desired Meteor version, packages and dependencies, then does the required book-keeping (described below), and finally passes the command onto `meteor`.\n\n## Permission woes?\n\nIt is *not* required that you run `sudo mrt`. If you do so, your home directory will pick up some root-owned files and you\'ll struggle to run `mrt` without `sudo` from then on. This isn\'t good.\n\nTo fix the problem, try cleaning up potentially "sudo-ed" files:\n\n```bash\nsudo mrt uninstall\nsudo mrt uninstall --system\nsudo chown -R `whoami` ~/.npm\n```\n\nIf possible, try not to install Meteorite as root either. If you have permissions problems, make sure you install with `sudo -H npm install -g meteorite`. If you\'ve installed without `-H`, your `~/.npm` directory will be owned by root and you should run the `chown` command above to fix it.\n\n\n\n## How Meteorite works\n\nApps tell Meteorite the Meteor version and packages they want with a file called `smart.json` in their root directory. Meteorite will install those dependencies the next time it is executed within that app.\n\nMeteorite writes to a `smart.lock` file in the app\'s root directory to track the exact versions of its dependencies, even when it\'s set up in a fresh environment. You should check the `smart.lock` file into your app\'s version control, to ensure that other developers are running the same versions of the dependencies. Any changes in `smart.json` take precendence over `smart.lock`. The `smart.lock` file is reset with the `mrt update` command.\n\n### Example `smart.json`\n\nThe `meteor` property is not required: apps will depend on Meteor\'s master branch by default. You can specify `meteor.branch`, `meteor.tag` or `meteor.git` to use alternate branches, tags and forks respectively. Note that `meteor.git` expects an actual URL, use `ssh://git@github.com/meteor/meteor.git` instead of `git@github.com:meteor/meteor.git`.\n\n``` json\n{\n  "packages": {\n    "moment": {},\n    "router": "0.3.4",\n    "roles": {\n      "version": "1.0.1"\n    },\n    "accounts-persona": {\n      "git": "https://github.com/vladikoff/meteor-accounts-persona"\n    },\n    "normalize.css": {\n      "git": "https://github.com/rithis/meteor-normalize.css",\n      "tag": "v2.0.1"\n    },\n    "branch-of-package": {\n      "git": "https://github.com/EventedMind/iron-router.git",\n      "branch": "dev"\n    },\n    "my-experiment": {\n      "path": "/path/to/local/package"\n    }\n  }\n}\n```\n\n## Bash Completion\n\nUse Meteorite\'s bash completion by sourcing it in your .bashrc or .bash_profile.\n\nDepending on where you installed Meteorite:\n\n```bash\nif [ -f /path/to/meteorite/completions/mrt.bash ]; then\n  . /path/to/meteorite/completions/mrt.bash\nfi\n```\n\nAlternatively, you can create a symbolic link under bash_completion.d:\n\n```bash\nln -s /path/to/meteorite/completions/mrt.bash /path/to/bash_completion.d/mrt\n```\n\n## Running Meteorite In a Git Hook Script\n\nIf you encounter checkout errors while running `mrt install` or `mrt update` within a Git hook script, it is because `GIT_DIR` is set to an unexpected value when running within a hook. The solution is to temporarily unset it just before running the `mrt` command.\n\n```bash\n(unset GIT_DIR; mrt update)\n```\n\n## Contributing\n\nContributions to meteorite are very welcome! Please see the [Contribution Guide](https://github.com/oortcloud/meteorite/blob/master/CONTRIBUTING.md) for details.\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     _id: 'meteorite@0.9.3',
+38 silly resolved     _from: 'meteorite@' } ]
+39 info install meteorite@0.9.3 into /usr/local/lib
+40 info installOne meteorite@0.9.3
+41 verbose from cache /root/.npm/meteorite/0.9.3/package/package.json
+42 info /usr/local/lib/node_modules/meteorite unbuild
+43 verbose read json /usr/local/lib/node_modules/meteorite/package.json
+44 verbose tar unpack /root/.npm/meteorite/0.9.3/package.tgz
+45 silly lockFile 8fc49c16-local-lib-node-modules-meteorite /usr/local/lib/node_modules/meteorite
+46 verbose lock /usr/local/lib/node_modules/meteorite /root/.npm/8fc49c16-local-lib-node-modules-meteorite.lock
+47 silly lockFile 2f6ae64f--npm-meteorite-0-9-3-package-tgz /root/.npm/meteorite/0.9.3/package.tgz
+48 verbose lock /root/.npm/meteorite/0.9.3/package.tgz /root/.npm/2f6ae64f--npm-meteorite-0-9-3-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry bin/mrt.js
+53 silly gunzTarPerm extractEntry completions/postinstall.sh
+54 silly gunzTarPerm extractEntry completions/mrt.bash
+55 silly gunzTarPerm extractEntry scripts/fetch-metadata.rb
+56 silly gunzTarPerm extractEntry scripts/migrate-dummy.rb
+57 silly gunzTarPerm extractEntry scripts/claim-mrt-packages.rb
+58 silly gunzTarPerm extractEntry scripts/migrate-dummies.rb
+59 silly gunzTarPerm extractEntry scripts/migrate-package.rb
+60 silly gunzTarPerm extractEntry scripts/config.rb
+61 silly gunzTarPerm extractEntry scripts/add-git-urls.rb
+62 silly gunzTarPerm extractEntry scripts/migrate-all.rb
+63 silly gunzTarPerm extractEntry lib/meteor.js
+64 silly gunzTarPerm extractEntry lib/console.js
+65 silly gunzTarPerm extractEntry lib/debug.js
+66 silly gunzTarPerm extractEntry lib/atmosphere.js
+67 silly gunzTarPerm extractEntry lib/meteorite.js
+68 silly gunzTarPerm extractEntry lib/config.js
+69 silly gunzTarPerm extractEntry lib/project.js
+70 silly gunzTarPerm extractEntry lib/command.js
+71 silly gunzTarPerm extractEntry lib/utils/git.js
+72 silly gunzTarPerm extractEntry lib/utils/fs.js
+73 silly gunzTarPerm extractEntry lib/sources/git.js
+74 silly gunzTarPerm extractEntry lib/sources/local.js
+75 silly gunzTarPerm extractEntry lib/sources/source.js
+76 silly gunzTarPerm extractEntry lib/dependencies/dependencies.js
+77 silly gunzTarPerm extractEntry lib/dependencies/package.js
+78 silly gunzTarPerm extractEntry lib/dependencies/resolver.js
+79 silly gunzTarPerm extractEntry CHANGELOG.md
+80 silly gunzTarPerm extractEntry CONTRIBUTING.md
+81 silly gunzTarPerm extractEntry LICENSE.txt
+82 verbose read json /usr/local/lib/node_modules/meteorite/package.json
+83 silly lockFile 8fc49c16-local-lib-node-modules-meteorite /usr/local/lib/node_modules/meteorite
+84 silly lockFile 8fc49c16-local-lib-node-modules-meteorite /usr/local/lib/node_modules/meteorite
+85 silly lockFile 2f6ae64f--npm-meteorite-0-9-3-package-tgz /root/.npm/meteorite/0.9.3/package.tgz
+86 silly lockFile 2f6ae64f--npm-meteorite-0-9-3-package-tgz /root/.npm/meteorite/0.9.3/package.tgz
+87 info preinstall meteorite@0.9.3
+88 verbose from cache /usr/local/lib/node_modules/meteorite/package.json
+89 verbose readDependencies using package.json deps
+90 verbose from cache /usr/local/lib/node_modules/meteorite/package.json
+91 verbose readDependencies using package.json deps
+92 verbose cache add [ 'ddp@>=0.3.1 <0.5.0', null ]
+93 verbose cache add name=undefined spec="ddp@>=0.3.1 <0.5.0" args=["ddp@>=0.3.1 <0.5.0",null]
+94 verbose parsed url { pathname: 'ddp@%3E=0.3.1%20%3C0.5.0',
+94 verbose parsed url   path: 'ddp@%3E=0.3.1%20%3C0.5.0',
+94 verbose parsed url   href: 'ddp@%3E=0.3.1%20%3C0.5.0' }
+95 verbose cache add name="ddp" spec=">=0.3.1 <0.5.0" args=["ddp",">=0.3.1 <0.5.0"]
+96 verbose parsed url { pathname: '%3E=0.3.1%20%3C0.5.0',
+96 verbose parsed url   path: '%3E=0.3.1%20%3C0.5.0',
+96 verbose parsed url   href: '%3E=0.3.1%20%3C0.5.0' }
+97 verbose addNamed [ 'ddp', '>=0.3.1 <0.5.0' ]
+98 verbose addNamed [ null, '>=0.3.1 <0.5.0' ]
+99 silly lockFile 232233a1-ddp-0-3-1-0-5-0 ddp@>=0.3.1 <0.5.0
+100 verbose lock ddp@>=0.3.1 <0.5.0 /root/.npm/232233a1-ddp-0-3-1-0-5-0.lock
+101 verbose cache add [ 'underscore@1.3.3', null ]
+102 verbose cache add name=undefined spec="underscore@1.3.3" args=["underscore@1.3.3",null]
+103 verbose parsed url { pathname: 'underscore@1.3.3',
+103 verbose parsed url   path: 'underscore@1.3.3',
+103 verbose parsed url   href: 'underscore@1.3.3' }
+104 verbose cache add name="underscore" spec="1.3.3" args=["underscore","1.3.3"]
+105 verbose parsed url { pathname: '1.3.3', path: '1.3.3', href: '1.3.3' }
+106 verbose addNamed [ 'underscore', '1.3.3' ]
+107 verbose addNamed [ '1.3.3', '1.3.3' ]
+108 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+109 verbose lock underscore@1.3.3 /root/.npm/99e765c4-underscore-1-3-3.lock
+110 silly addNameRange { name: 'ddp', range: '>=0.3.1 <0.5.0', hasData: false }
+111 verbose cache add [ 'wrench@1.3.9', null ]
+112 verbose cache add name=undefined spec="wrench@1.3.9" args=["wrench@1.3.9",null]
+113 verbose parsed url { pathname: 'wrench@1.3.9',
+113 verbose parsed url   path: 'wrench@1.3.9',
+113 verbose parsed url   href: 'wrench@1.3.9' }
+114 verbose cache add name="wrench" spec="1.3.9" args=["wrench","1.3.9"]
+115 verbose parsed url { pathname: '1.3.9', path: '1.3.9', href: '1.3.9' }
+116 verbose addNamed [ 'wrench', '1.3.9' ]
+117 verbose addNamed [ '1.3.9', '1.3.9' ]
+118 silly lockFile de31968e-wrench-1-3-9 wrench@1.3.9
+119 verbose lock wrench@1.3.9 /root/.npm/de31968e-wrench-1-3-9.lock
+120 verbose cache add [ 'fstream@>=0.1.18', null ]
+121 verbose cache add name=undefined spec="fstream@>=0.1.18" args=["fstream@>=0.1.18",null]
+122 verbose parsed url { pathname: 'fstream@%3E=0.1.18',
+122 verbose parsed url   path: 'fstream@%3E=0.1.18',
+122 verbose parsed url   href: 'fstream@%3E=0.1.18' }
+123 verbose cache add name="fstream" spec=">=0.1.18" args=["fstream",">=0.1.18"]
+124 verbose parsed url { pathname: '%3E=0.1.18',
+124 verbose parsed url   path: '%3E=0.1.18',
+124 verbose parsed url   href: '%3E=0.1.18' }
+125 verbose addNamed [ 'fstream', '>=0.1.18' ]
+126 verbose addNamed [ null, '>=0.1.18' ]
+127 silly lockFile 5141b154-fstream-0-1-18 fstream@>=0.1.18
+128 verbose lock fstream@>=0.1.18 /root/.npm/5141b154-fstream-0-1-18.lock
+129 verbose cache add [ 'optimist@>=0.3.4', null ]
+130 verbose cache add name=undefined spec="optimist@>=0.3.4" args=["optimist@>=0.3.4",null]
+131 verbose parsed url { pathname: 'optimist@%3E=0.3.4',
+131 verbose parsed url   path: 'optimist@%3E=0.3.4',
+131 verbose parsed url   href: 'optimist@%3E=0.3.4' }
+132 verbose cache add name="optimist" spec=">=0.3.4" args=["optimist",">=0.3.4"]
+133 verbose parsed url { pathname: '%3E=0.3.4', path: '%3E=0.3.4', href: '%3E=0.3.4' }
+134 verbose addNamed [ 'optimist', '>=0.3.4' ]
+135 verbose addNamed [ null, '>=0.3.4' ]
+136 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+137 verbose lock optimist@>=0.3.4 /root/.npm/748708ed-optimist-0-3-4.lock
+138 verbose cache add [ 'prompt@0.2.11', null ]
+139 verbose cache add name=undefined spec="prompt@0.2.11" args=["prompt@0.2.11",null]
+140 verbose parsed url { pathname: 'prompt@0.2.11',
+140 verbose parsed url   path: 'prompt@0.2.11',
+140 verbose parsed url   href: 'prompt@0.2.11' }
+141 verbose cache add name="prompt" spec="0.2.11" args=["prompt","0.2.11"]
+142 verbose parsed url { pathname: '0.2.11', path: '0.2.11', href: '0.2.11' }
+143 verbose addNamed [ 'prompt', '0.2.11' ]
+144 verbose addNamed [ '0.2.11', '0.2.11' ]
+145 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+146 verbose lock prompt@0.2.11 /root/.npm/61856ab9-prompt-0-2-11.lock
+147 verbose cache add [ 'colors@0.6.0-1', null ]
+148 verbose cache add name=undefined spec="colors@0.6.0-1" args=["colors@0.6.0-1",null]
+149 verbose parsed url { pathname: 'colors@0.6.0-1',
+149 verbose parsed url   path: 'colors@0.6.0-1',
+149 verbose parsed url   href: 'colors@0.6.0-1' }
+150 verbose cache add name="colors" spec="0.6.0-1" args=["colors","0.6.0-1"]
+151 verbose parsed url { pathname: '0.6.0-1', path: '0.6.0-1', href: '0.6.0-1' }
+152 verbose addNamed [ 'colors', '0.6.0-1' ]
+153 verbose addNamed [ '0.6.0-1', '0.6.0-1' ]
+154 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+155 verbose lock colors@0.6.0-1 /root/.npm/02eba27f-colors-0-6-0-1.lock
+156 verbose cache add [ 'async@0.2.9', null ]
+157 verbose cache add name=undefined spec="async@0.2.9" args=["async@0.2.9",null]
+158 verbose parsed url { pathname: 'async@0.2.9',
+158 verbose parsed url   path: 'async@0.2.9',
+158 verbose parsed url   href: 'async@0.2.9' }
+159 verbose cache add name="async" spec="0.2.9" args=["async","0.2.9"]
+160 verbose parsed url { pathname: '0.2.9', path: '0.2.9', href: '0.2.9' }
+161 verbose addNamed [ 'async', '0.2.9' ]
+162 verbose addNamed [ '0.2.9', '0.2.9' ]
+163 silly lockFile be62480b-async-0-2-9 async@0.2.9
+164 verbose lock async@0.2.9 /root/.npm/be62480b-async-0-2-9.lock
+165 verbose cache add [ 'rolling_timeout_exec@>=0.0.1', null ]
+166 verbose cache add name=undefined spec="rolling_timeout_exec@>=0.0.1" args=["rolling_timeout_exec@>=0.0.1",null]
+167 verbose parsed url { pathname: 'rolling_timeout_exec@%3E=0.0.1',
+167 verbose parsed url   path: 'rolling_timeout_exec@%3E=0.0.1',
+167 verbose parsed url   href: 'rolling_timeout_exec@%3E=0.0.1' }
+168 verbose cache add name="rolling_timeout_exec" spec=">=0.0.1" args=["rolling_timeout_exec",">=0.0.1"]
+169 verbose parsed url { pathname: '%3E=0.0.1', path: '%3E=0.0.1', href: '%3E=0.0.1' }
+170 verbose addNamed [ 'rolling_timeout_exec', '>=0.0.1' ]
+171 verbose addNamed [ null, '>=0.0.1' ]
+172 silly lockFile dd046e26-rolling-timeout-exec-0-0-1 rolling_timeout_exec@>=0.0.1
+173 verbose lock rolling_timeout_exec@>=0.0.1 /root/.npm/dd046e26-rolling-timeout-exec-0-0-1.lock
+174 silly addNameRange { name: 'fstream', range: '>=0.1.18', hasData: false }
+175 silly addNameRange { name: 'rolling_timeout_exec',
+175 silly addNameRange   range: '>=0.0.1',
+175 silly addNameRange   hasData: false }
+176 verbose url raw ddp
+177 verbose url resolving [ 'https://registry.npmjs.org/', './ddp' ]
+178 verbose url resolved https://registry.npmjs.org/ddp
+179 info trying registry request attempt 1 at 04:06:54
+180 verbose etag "4JXLK854VF6V8QT2WX5ZCUXXQ"
+181 http GET https://registry.npmjs.org/ddp
+182 silly addNameRange { name: 'optimist', range: '>=0.3.4', hasData: false }
+183 verbose url raw prompt/0.2.11
+184 verbose url resolving [ 'https://registry.npmjs.org/', './prompt/0.2.11' ]
+185 verbose url resolved https://registry.npmjs.org/prompt/0.2.11
+186 info trying registry request attempt 1 at 04:06:54
+187 verbose etag "E5NXVITTTDMQ510GWJKEMS60E"
+188 http GET https://registry.npmjs.org/prompt/0.2.11
+189 verbose url raw underscore/1.3.3
+190 verbose url resolving [ 'https://registry.npmjs.org/', './underscore/1.3.3' ]
+191 verbose url resolved https://registry.npmjs.org/underscore/1.3.3
+192 info trying registry request attempt 1 at 04:06:54
+193 verbose etag "CJ8R9PDKZ7HTCG4B6CM0T1M6K"
+194 http GET https://registry.npmjs.org/underscore/1.3.3
+195 verbose url raw rolling_timeout_exec
+196 verbose url resolving [ 'https://registry.npmjs.org/', './rolling_timeout_exec' ]
+197 verbose url resolved https://registry.npmjs.org/rolling_timeout_exec
+198 info trying registry request attempt 1 at 04:06:54
+199 verbose etag "6WKNZVHBU5X4B49L859609BAN"
+200 http GET https://registry.npmjs.org/rolling_timeout_exec
+201 verbose url raw wrench/1.3.9
+202 verbose url resolving [ 'https://registry.npmjs.org/', './wrench/1.3.9' ]
+203 verbose url resolved https://registry.npmjs.org/wrench/1.3.9
+204 info trying registry request attempt 1 at 04:06:54
+205 verbose etag "D0FJAD055S2Z4V0EUZ0PVLSET"
+206 http GET https://registry.npmjs.org/wrench/1.3.9
+207 verbose url raw fstream
+208 verbose url resolving [ 'https://registry.npmjs.org/', './fstream' ]
+209 verbose url resolved https://registry.npmjs.org/fstream
+210 info trying registry request attempt 1 at 04:06:54
+211 verbose etag "2L3O8HC3HU5ZCJ6R08OQMRHIG"
+212 http GET https://registry.npmjs.org/fstream
+213 verbose url raw colors/0.6.0-1
+214 verbose url resolving [ 'https://registry.npmjs.org/', './colors/0.6.0-1' ]
+215 verbose url resolved https://registry.npmjs.org/colors/0.6.0-1
+216 info trying registry request attempt 1 at 04:06:54
+217 verbose etag "9DH7AF0HI0EZGSM9IBTKABNAR"
+218 http GET https://registry.npmjs.org/colors/0.6.0-1
+219 verbose url raw async/0.2.9
+220 verbose url resolving [ 'https://registry.npmjs.org/', './async/0.2.9' ]
+221 verbose url resolved https://registry.npmjs.org/async/0.2.9
+222 info trying registry request attempt 1 at 04:06:54
+223 verbose etag "CH98R8OZ86C2S40QVWEXBEHLD"
+224 http GET https://registry.npmjs.org/async/0.2.9
+225 verbose url raw optimist
+226 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+227 verbose url resolved https://registry.npmjs.org/optimist
+228 info trying registry request attempt 1 at 04:06:54
+229 verbose etag "20SFF3GUDH9TO8YQZHIVDHC67"
+230 http GET https://registry.npmjs.org/optimist
+231 http 304 https://registry.npmjs.org/prompt/0.2.11
+232 silly registry.get cb [ 304,
+232 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+232 silly registry.get     via: '1.1 varnish',
+232 silly registry.get     'cache-control': 'max-age=60',
+232 silly registry.get     etag: '"E5NXVITTTDMQ510GWJKEMS60E"',
+232 silly registry.get     age: '0',
+232 silly registry.get     connection: 'keep-alive',
+232 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+232 silly registry.get     'x-cache': 'MISS',
+232 silly registry.get     'x-cache-hits': '0',
+232 silly registry.get     'x-timer': 'S1449461214.599659,VS0,VE19',
+232 silly registry.get     vary: 'Accept' } ]
+233 verbose etag prompt/0.2.11 from cache
+234 verbose read json /root/.npm/prompt/0.2.11/package/package.json
+235 http 304 https://registry.npmjs.org/ddp
+236 silly registry.get cb [ 304,
+236 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+236 silly registry.get     via: '1.1 varnish',
+236 silly registry.get     'cache-control': 'max-age=60',
+236 silly registry.get     etag: '"4JXLK854VF6V8QT2WX5ZCUXXQ"',
+236 silly registry.get     age: '0',
+236 silly registry.get     connection: 'keep-alive',
+236 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+236 silly registry.get     'x-cache': 'MISS',
+236 silly registry.get     'x-cache-hits': '0',
+236 silly registry.get     'x-timer': 'S1449461214.614250,VS0,VE21',
+236 silly registry.get     vary: 'Accept' } ]
+237 verbose etag ddp from cache
+238 silly addNameRange number 2 { name: 'ddp', range: '>=0.3.1 <0.5.0', hasData: true }
+239 silly addNameRange versions [ 'ddp',
+239 silly addNameRange   [ '0.1.0',
+239 silly addNameRange     '0.1.1',
+239 silly addNameRange     '0.2.0',
+239 silly addNameRange     '0.2.1',
+239 silly addNameRange     '0.2.2',
+239 silly addNameRange     '0.2.3',
+239 silly addNameRange     '0.3.0',
+239 silly addNameRange     '0.3.1',
+239 silly addNameRange     '0.3.2',
+239 silly addNameRange     '0.3.3',
+239 silly addNameRange     '0.3.4',
+239 silly addNameRange     '0.3.5',
+239 silly addNameRange     '0.3.6',
+239 silly addNameRange     '0.3.7',
+239 silly addNameRange     '0.4.0',
+239 silly addNameRange     '0.4.1',
+239 silly addNameRange     '0.4.2',
+239 silly addNameRange     '0.4.3',
+239 silly addNameRange     '0.4.4',
+239 silly addNameRange     '0.4.5',
+239 silly addNameRange     '0.4.6',
+239 silly addNameRange     '0.5.0',
+239 silly addNameRange     '0.5.1',
+239 silly addNameRange     '0.5.2',
+239 silly addNameRange     '0.6.0',
+239 silly addNameRange     '0.7.0',
+239 silly addNameRange     '0.8.0',
+239 silly addNameRange     '0.8.1',
+239 silly addNameRange     '0.8.2',
+239 silly addNameRange     '0.9.0',
+239 silly addNameRange     '0.9.1',
+239 silly addNameRange     '0.9.2',
+239 silly addNameRange     '0.9.3',
+239 silly addNameRange     '0.9.4',
+239 silly addNameRange     '0.10.0',
+239 silly addNameRange     '0.11.0' ] ]
+240 verbose addNamed [ 'ddp', '0.4.6' ]
+241 verbose addNamed [ '0.4.6', '0.4.6' ]
+242 silly lockFile f6af903c-ddp-0-4-6 ddp@0.4.6
+243 verbose lock ddp@0.4.6 /root/.npm/f6af903c-ddp-0-4-6.lock
+244 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+245 silly lockFile 61856ab9-prompt-0-2-11 prompt@0.2.11
+246 http 304 https://registry.npmjs.org/underscore/1.3.3
+247 silly registry.get cb [ 304,
+247 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+247 silly registry.get     via: '1.1 varnish',
+247 silly registry.get     'cache-control': 'max-age=60',
+247 silly registry.get     etag: '"CJ8R9PDKZ7HTCG4B6CM0T1M6K"',
+247 silly registry.get     age: '0',
+247 silly registry.get     connection: 'keep-alive',
+247 silly registry.get     'x-served-by': 'cache-iad2122-IAD',
+247 silly registry.get     'x-cache': 'MISS',
+247 silly registry.get     'x-cache-hits': '0',
+247 silly registry.get     'x-timer': 'S1449461214.596882,VS0,VE108',
+247 silly registry.get     vary: 'Accept' } ]
+248 verbose etag underscore/1.3.3 from cache
+249 http 304 https://registry.npmjs.org/wrench/1.3.9
+250 silly registry.get cb [ 304,
+250 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+250 silly registry.get     via: '1.1 varnish',
+250 silly registry.get     'cache-control': 'max-age=60',
+250 silly registry.get     etag: '"D0FJAD055S2Z4V0EUZ0PVLSET"',
+250 silly registry.get     age: '0',
+250 silly registry.get     connection: 'keep-alive',
+250 silly registry.get     'x-served-by': 'cache-iad2122-IAD',
+250 silly registry.get     'x-cache': 'MISS',
+250 silly registry.get     'x-cache-hits': '0',
+250 silly registry.get     'x-timer': 'S1449461214.596916,VS0,VE99',
+250 silly registry.get     vary: 'Accept' } ]
+251 verbose etag wrench/1.3.9 from cache
+252 http 304 https://registry.npmjs.org/fstream
+253 silly registry.get cb [ 304,
+253 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+253 silly registry.get     via: '1.1 varnish',
+253 silly registry.get     'cache-control': 'max-age=60',
+253 silly registry.get     etag: '"2L3O8HC3HU5ZCJ6R08OQMRHIG"',
+253 silly registry.get     age: '47',
+253 silly registry.get     connection: 'keep-alive',
+253 silly registry.get     'x-served-by': 'cache-jfk1025-JFK',
+253 silly registry.get     'x-cache': 'HIT',
+253 silly registry.get     'x-cache-hits': '1',
+253 silly registry.get     'x-timer': 'S1449461214.676563,VS0,VE0',
+253 silly registry.get     vary: 'Accept' } ]
+254 verbose etag fstream from cache
+255 verbose read json /root/.npm/ddp/0.4.6/package/package.json
+256 silly addNameRange number 2 { name: 'fstream', range: '>=0.1.18', hasData: true }
+257 silly addNameRange versions [ 'fstream',
+257 silly addNameRange   [ '0.0.0',
+257 silly addNameRange     '0.0.1',
+257 silly addNameRange     '0.1.0',
+257 silly addNameRange     '0.1.1',
+257 silly addNameRange     '0.1.2',
+257 silly addNameRange     '0.1.3',
+257 silly addNameRange     '0.1.5',
+257 silly addNameRange     '0.1.6',
+257 silly addNameRange     '0.1.7',
+257 silly addNameRange     '0.1.8',
+257 silly addNameRange     '0.1.9',
+257 silly addNameRange     '0.1.10',
+257 silly addNameRange     '0.1.11',
+257 silly addNameRange     '0.1.12',
+257 silly addNameRange     '0.1.13',
+257 silly addNameRange     '0.1.14',
+257 silly addNameRange     '0.1.15',
+257 silly addNameRange     '0.1.16',
+257 silly addNameRange     '0.1.17',
+257 silly addNameRange     '0.1.18',
+257 silly addNameRange     '0.1.19',
+257 silly addNameRange     '0.1.20',
+257 silly addNameRange     '0.1.21',
+257 silly addNameRange     '0.1.22',
+257 silly addNameRange     '0.1.23',
+257 silly addNameRange     '0.1.24',
+257 silly addNameRange     '0.1.25',
+257 silly addNameRange     '0.1.26',
+257 silly addNameRange     '0.1.27',
+257 silly addNameRange     '0.1.28',
+257 silly addNameRange     '0.1.29',
+257 silly addNameRange     '0.1.30',
+257 silly addNameRange     '1.0.0',
+257 silly addNameRange     '1.0.1',
+257 silly addNameRange     '0.1.31',
+257 silly addNameRange     '1.0.2',
+257 silly addNameRange     '1.0.3',
+257 silly addNameRange     '1.0.4',
+257 silly addNameRange     '1.0.5',
+257 silly addNameRange     '1.0.6',
+257 silly addNameRange     '1.0.7',
+257 silly addNameRange     '1.0.8' ] ]
+258 verbose addNamed [ 'fstream', '1.0.8' ]
+259 verbose addNamed [ '1.0.8', '1.0.8' ]
+260 silly lockFile 669d5e96-fstream-1-0-8 fstream@1.0.8
+261 verbose lock fstream@1.0.8 /root/.npm/669d5e96-fstream-1-0-8.lock
+262 verbose read json /root/.npm/wrench/1.3.9/package/package.json
+263 verbose read json /root/.npm/fstream/1.0.8/package/package.json
+264 silly lockFile f6af903c-ddp-0-4-6 ddp@0.4.6
+265 silly lockFile f6af903c-ddp-0-4-6 ddp@0.4.6
+266 silly lockFile 232233a1-ddp-0-3-1-0-5-0 ddp@>=0.3.1 <0.5.0
+267 silly lockFile 232233a1-ddp-0-3-1-0-5-0 ddp@>=0.3.1 <0.5.0
+268 silly lockFile de31968e-wrench-1-3-9 wrench@1.3.9
+269 silly lockFile de31968e-wrench-1-3-9 wrench@1.3.9
+270 http 304 https://registry.npmjs.org/rolling_timeout_exec
+271 silly registry.get cb [ 304,
+271 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+271 silly registry.get     via: '1.1 varnish',
+271 silly registry.get     'cache-control': 'max-age=60',
+271 silly registry.get     etag: '"6WKNZVHBU5X4B49L859609BAN"',
+271 silly registry.get     age: '0',
+271 silly registry.get     connection: 'keep-alive',
+271 silly registry.get     'x-served-by': 'cache-jfk1031-JFK',
+271 silly registry.get     'x-cache': 'MISS',
+271 silly registry.get     'x-cache-hits': '0',
+271 silly registry.get     'x-timer': 'S1449461214.648888,VS0,VE91',
+271 silly registry.get     vary: 'Accept' } ]
+272 verbose etag rolling_timeout_exec from cache
+273 verbose read json /root/.npm/underscore/1.3.3/package/package.json
+274 silly addNameRange number 2 { name: 'rolling_timeout_exec', range: '>=0.0.1', hasData: true }
+275 silly addNameRange versions [ 'rolling_timeout_exec', [ '0.0.1' ] ]
+276 verbose addNamed [ 'rolling_timeout_exec', '0.0.1' ]
+277 verbose addNamed [ '0.0.1', '0.0.1' ]
+278 silly lockFile 82ac81f5-rolling-timeout-exec-0-0-1 rolling_timeout_exec@0.0.1
+279 verbose lock rolling_timeout_exec@0.0.1 /root/.npm/82ac81f5-rolling-timeout-exec-0-0-1.lock
+280 silly lockFile 669d5e96-fstream-1-0-8 fstream@1.0.8
+281 silly lockFile 669d5e96-fstream-1-0-8 fstream@1.0.8
+282 silly lockFile 5141b154-fstream-0-1-18 fstream@>=0.1.18
+283 silly lockFile 5141b154-fstream-0-1-18 fstream@>=0.1.18
+284 verbose read json /root/.npm/rolling_timeout_exec/0.0.1/package/package.json
+285 http 304 https://registry.npmjs.org/optimist
+286 silly registry.get cb [ 304,
+286 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+286 silly registry.get     via: '1.1 varnish',
+286 silly registry.get     'cache-control': 'max-age=60',
+286 silly registry.get     etag: '"20SFF3GUDH9TO8YQZHIVDHC67"',
+286 silly registry.get     age: '19',
+286 silly registry.get     connection: 'keep-alive',
+286 silly registry.get     'x-served-by': 'cache-iad2122-IAD',
+286 silly registry.get     'x-cache': 'HIT',
+286 silly registry.get     'x-cache-hits': '2',
+286 silly registry.get     'x-timer': 'S1449461214.813396,VS0,VE0',
+286 silly registry.get     vary: 'Accept' } ]
+287 verbose etag optimist from cache
+288 http 304 https://registry.npmjs.org/colors/0.6.0-1
+289 silly registry.get cb [ 304,
+289 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+289 silly registry.get     via: '1.1 varnish',
+289 silly registry.get     'cache-control': 'max-age=60',
+289 silly registry.get     etag: '"9DH7AF0HI0EZGSM9IBTKABNAR"',
+289 silly registry.get     age: '0',
+289 silly registry.get     connection: 'keep-alive',
+289 silly registry.get     'x-served-by': 'cache-jfk1028-JFK',
+289 silly registry.get     'x-cache': 'HIT',
+289 silly registry.get     'x-cache-hits': '1',
+289 silly registry.get     'x-timer': 'S1449461214.760046,VS0,VE20',
+289 silly registry.get     vary: 'Accept' } ]
+290 verbose etag colors/0.6.0-1 from cache
+291 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+292 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+293 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.4', hasData: true }
+294 silly addNameRange versions [ 'optimist',
+294 silly addNameRange   [ '0.0.1',
+294 silly addNameRange     '0.0.2',
+294 silly addNameRange     '0.0.4',
+294 silly addNameRange     '0.0.5',
+294 silly addNameRange     '0.0.6',
+294 silly addNameRange     '0.0.7',
+294 silly addNameRange     '0.1.0',
+294 silly addNameRange     '0.1.1',
+294 silly addNameRange     '0.1.2',
+294 silly addNameRange     '0.1.3',
+294 silly addNameRange     '0.1.4',
+294 silly addNameRange     '0.1.5',
+294 silly addNameRange     '0.1.6',
+294 silly addNameRange     '0.1.7',
+294 silly addNameRange     '0.1.8',
+294 silly addNameRange     '0.1.9',
+294 silly addNameRange     '0.0.3',
+294 silly addNameRange     '0.2.0',
+294 silly addNameRange     '0.2.1',
+294 silly addNameRange     '0.2.2',
+294 silly addNameRange     '0.2.3',
+294 silly addNameRange     '0.2.4',
+294 silly addNameRange     '0.2.5',
+294 silly addNameRange     '0.2.6',
+294 silly addNameRange     '0.2.7',
+294 silly addNameRange     '0.2.8',
+294 silly addNameRange     '0.3.0',
+294 silly addNameRange     '0.3.1',
+294 silly addNameRange     '0.3.3',
+294 silly addNameRange     '0.3.4',
+294 silly addNameRange     '0.3.5',
+294 silly addNameRange     '0.3.6',
+294 silly addNameRange     '0.3.7',
+294 silly addNameRange     '0.4.0',
+294 silly addNameRange     '0.5.0',
+294 silly addNameRange     '0.5.1',
+294 silly addNameRange     '0.5.2',
+294 silly addNameRange     '0.6.0',
+294 silly addNameRange     '0.6.1' ] ]
+295 verbose addNamed [ 'optimist', '0.6.1' ]
+296 verbose addNamed [ '0.6.1', '0.6.1' ]
+297 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+298 verbose lock optimist@0.6.1 /root/.npm/0fc74eb8-optimist-0-6-1.lock
+299 verbose read json /root/.npm/colors/0.6.0-1/package/package.json
+300 verbose read json /root/.npm/optimist/0.6.1/package/package.json
+301 silly lockFile 82ac81f5-rolling-timeout-exec-0-0-1 rolling_timeout_exec@0.0.1
+302 silly lockFile 82ac81f5-rolling-timeout-exec-0-0-1 rolling_timeout_exec@0.0.1
+303 silly lockFile dd046e26-rolling-timeout-exec-0-0-1 rolling_timeout_exec@>=0.0.1
+304 silly lockFile dd046e26-rolling-timeout-exec-0-0-1 rolling_timeout_exec@>=0.0.1
+305 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+306 silly lockFile 02eba27f-colors-0-6-0-1 colors@0.6.0-1
+307 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+308 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+309 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+310 silly lockFile 748708ed-optimist-0-3-4 optimist@>=0.3.4
+311 http 304 https://registry.npmjs.org/async/0.2.9
+312 silly registry.get cb [ 304,
+312 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:54 GMT',
+312 silly registry.get     via: '1.1 varnish',
+312 silly registry.get     'cache-control': 'max-age=60',
+312 silly registry.get     etag: '"CH98R8OZ86C2S40QVWEXBEHLD"',
+312 silly registry.get     age: '0',
+312 silly registry.get     connection: 'keep-alive',
+312 silly registry.get     'x-served-by': 'cache-iad2122-IAD',
+312 silly registry.get     'x-cache': 'HIT',
+312 silly registry.get     'x-cache-hits': '1',
+312 silly registry.get     'x-timer': 'S1449461214.807565,VS0,VE61',
+312 silly registry.get     vary: 'Accept' } ]
+313 verbose etag async/0.2.9 from cache
+314 verbose read json /root/.npm/async/0.2.9/package/package.json
+315 silly lockFile be62480b-async-0-2-9 async@0.2.9
+316 silly lockFile be62480b-async-0-2-9 async@0.2.9
+317 silly resolved [ { name: 'prompt',
+317 silly resolved     description: 'A beautiful command-line prompt for node.js',
+317 silly resolved     version: '0.2.11',
+317 silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+317 silly resolved     maintainers: [ [Object], [Object] ],
+317 silly resolved     repository: { type: 'git', url: 'http://github.com/flatiron/prompt.git' },
+317 silly resolved     dependencies:
+317 silly resolved      { pkginfo: '0.x.x',
+317 silly resolved        read: '1.0.x',
+317 silly resolved        revalidator: '0.1.x',
+317 silly resolved        utile: '0.2.x',
+317 silly resolved        winston: '0.6.x' },
+317 silly resolved     devDependencies: { vows: '0.7.0' },
+317 silly resolved     main: './lib/prompt',
+317 silly resolved     scripts:
+317 silly resolved      { test: 'vows test/prompt-test.js --spec',
+317 silly resolved        'test-all': 'vows --spec' },
+317 silly resolved     engines: { node: '>= 0.6.6' },
+317 silly resolved     readme: '# prompt [![Build Status](https://secure.travis-ci.org/flatiron/prompt.png)](http://travis-ci.org/flatiron/prompt)\n\nA beautiful command-line prompt for node.js\n\n## Features\n\n* prompts the user for input\n* supports validation and defaults\n* hides passwords\n\n## Usage\nUsing prompt is relatively straight forward. There are two core methods you should be aware of: `prompt.get()` and `prompt.addProperties()`. There methods take strings representing property names in addition to objects for complex property validation (and more). There are a number of [examples][0] that you should examine for detailed usage.\n\n### Getting Basic Prompt Information\nGetting started with `prompt` is easy. Lets take a look at `examples/simple-prompt.js`:\n\n``` js\n  var prompt = require(\'prompt\');\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and email\n  //\n  prompt.get([\'username\', \'email\'], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  email: \' + result.email);\n  });\n```\n\nThis will result in the following command-line output:\n\n```\n  $ node examples/simple-prompt.js \n  prompt: username: some-user\n  prompt: email: some-user@some-place.org\n  Command-line input received:\n    username: some-user\n    email: some-user@some-place.org\n```\n\n### Prompting with Validation, Default Values, and More (Complex Properties)\nIn addition to prompting the user with simple string prompts, there is a robust API for getting and validating complex information from a command-line prompt. Here\'s a quick sample:\n\n``` js\n  var schema = {\n    properties: {\n      name: {\n        pattern: /^[a-zA-Z\\s\\-]+$/,\n        message: \'Name must be only letters, spaces, or dashes\',\n        required: true\n      },\n      password: {\n        hidden: true\n      }\n    }\n  };\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: email, password\n  //\n  prompt.get(schema, function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  name: \' + result.name);\n    console.log(\'  password: \' + result.password);\n  });\n```\n\nPretty easy right? The output from the above script is: \n\n```\n  $ node examples/property-prompt.js\n  prompt: name: nodejitsu000\n  error:  Invalid input for name\n  error:  Name must be only letters, spaces, or dashes\n  prompt: name: Nodejitsu Inc\n  prompt: password: \n  Command-line input received:\n    name: Nodejitsu Inc\n    password: some-password  \n```\n\n## Valid Property Settings\n`prompt` understands JSON-schema with a few extra parameters and uses [revalidator](https://github.com/flatiron/revalidator) for validation.\n\nHere\'s an overview of the properties that may be used for validation and prompting controls:\n\n``` js\n  {\n    description: \'Enter your password\',     // Prompt displayed to the user. If not supplied name will be used.\n    type: \'string\',                 // Specify the type of input to expect.\n    pattern: /^\\w+$/,                  // Regular expression that input must be valid against.\n    message: \'Password must be letters\', // Warning message to display if validation fails.\n    hidden: true,                        // If true, characters entered will not be output to console.\n    default: \'lamepassword\',             // Default value to use if no value is entered.\n    required: true                        // If true, value entered must be non-empty.\n    before: function(value) { return \'v\' + value; } // Runs before node-prompt callbacks. It modifies user\'s input\n  }\n```\n\nAlternatives to `pattern` include `format` and `conform`, as documented in [revalidator](https://github.com/flatiron/revalidator).\n\nUsing `type: \'array\'` has some special cases.\n\n- `description` will not work in the schema if `type: \'array\'` is defined.\n- `maxItems` takes precedence over `minItems`.\n- Arrays that do not have `maxItems` defined will require users to `SIGINT` (`^C`) before the array is ended.\n- If `SIGINT` (`^C`) is triggered before `minItems` is met, a validation error will appear. This will require users to `SIGEOF` (`^D`) to end the input.\n\nFor more information on things such as `maxItems` and `minItems`, refer to the [revalidator](https://github.com/flatiron/revalidator) repository.\n\n### Alternate Validation API:\n\nPrompt, in addition to iterating over JSON-Schema properties, will also happily iterate over an array of validation objects given an extra \'name\' property:\n\n```js\n  var prompt = require(\'../lib/prompt\');\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and password\n  //\n  prompt.get([{\n      name: \'username\',\n      required: true\n    }, {\n      name: \'password\',\n      hidden: true,\n      conform: function (value) {\n        return true;\n      }\n    }], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  password: \' + result.password);\n  });\n```\n\n### Backward Compatibility\n\nNote that, while this structure is similar to that used by prompt 0.1.x, that the object properties use the same names as in JSON-Schema. prompt 0.2.x is backward compatible with prompt 0.1.x except for asynchronous validation.\n\n### Skipping Prompts\n\nSometimes power users may wish to skip promts and specify all data as command line options. \nif a value is set as a property of `prompt.override` prompt will use that instead of \nprompting the user.\n\n``` js\n  //prompt-override.js\n\n  var prompt = require(\'prompt\'),\n      optimist = require(\'optimist\')\n\n  //\n  // set the overrides\n  //\n  prompt.override = optimist.argv\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and email\n  //\n  prompt.get([\'username\', \'email\'], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  email: \' + result.email);\n  })\n\n  //: node prompt-override.js --username USER --email EMAIL\n```\n\n\n### Adding Properties to an Object \nA common use-case for prompting users for data from the command-line is to extend or create a configuration object that is passed onto the entry-point method for your CLI tool. `prompt` exposes a convenience method for doing just this: \n\n``` js\n  var obj = {\n    password: \'lamepassword\',\n    mindset: \'NY\'\n  }\n\n  //\n  // Log the initial object.\n  //\n  console.log(\'Initial object to be extended:\');\n  console.dir(obj);\n\n  //\n  // Add two properties to the empty object: username and email\n  //\n  prompt.addProperties(obj, [\'username\', \'email\'], function (err) {\n    //\n    // Log the results.\n    //\n    console.log(\'Updated object received:\');\n    console.dir(obj);\n  });\n```\n\n## Customizing your prompt\nAside from changing `property.message`, you can also change `prompt.message`\nand `prompt.delimiter` to change the appearance of your prompt.\n\nThe basic structure of a prompt is this:\n\n``` js\nprompt.message + prompt.delimiter + property.message + prompt.delimiter;\n```\n\nThe default `prompt.message` is "prompt," the default `prompt.delimiter` is\n": ", and the default `property.message` is `property.name`.\nChanging these allows you to customize the appearance of your prompts! In\naddition, prompt supports ANSI color codes via the\n[colors module](https://github.com/Marak/colors.js) for custom colors. For a\nvery colorful example:\n\n``` js\n  var prompt = require("prompt");\n\n  //\n  // Setting these properties customizes the prompt.\n  //\n  prompt.message = "Question!".rainbow;\n  prompt.delimiter = "><".green;\n\n  prompt.start();\n\n  prompt.get({\n    properties: {\n      name: {\n        description: "What is your name?".magenta\n      }\n    }\n  }, function (err, result) {\n    console.log("You said your name is: ".cyan + result.name.cyan);\n  });\n```\n\nIf you don\'t want colors, you can set\n\n```js\nvar prompt = require(\'prompt\');\n\nprompt.colors = false;\n```\n\n## Installation\n\n``` bash\n  $ [sudo] npm install prompt\n```\n\n## Running tests\n\n``` bash \n  $ npm test\n```\n\n#### License: MIT\n#### Author: [Charlie Robbins](http://github.com/indexzero)\n#### Contributors: [Josh Holbrook](http://github.com/jesusabdullah), [Pavan Kumar Sunkara](http://github.com/pksunkara)\n\n[0]: https://github.com/flatiron/prompt/tree/master/examples\n',
+317 silly resolved     readmeFilename: 'README.md',
+317 silly resolved     _id: 'prompt@0.2.11',
+317 silly resolved     _from: 'prompt@0.2.11' },
+317 silly resolved   { name: 'ddp',
+317 silly resolved     version: '0.4.6',
+317 silly resolved     description: 'Node.js module to connect to servers using DDP protocol.',
+317 silly resolved     author:
+317 silly resolved      { name: 'Tom Coleman',
+317 silly resolved        email: 'tom@thesnail.org',
+317 silly resolved        url: 'http://tom.thesnail.org' },
+317 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+317 silly resolved     main: 'lib/ddp-client',
+317 silly resolved     keywords: [ 'ddp', 'meteor', 'protocol' ],
+317 silly resolved     repository:
+317 silly resolved      { type: 'git',
+317 silly resolved        url: 'https://github.com/oortcloud/node-ddp-client.git' },
+317 silly resolved     dependencies:
+317 silly resolved      { underscore: '>=1.3.3',
+317 silly resolved        'meteor-ejson': '>=0.6.3',
+317 silly resolved        'node-srp': '>=0.0.1',
+317 silly resolved        'faye-websocket': '~0.7.1' },
+317 silly resolved     devDependencies: { mocha: '1.9.x', sinon: '1.7.x', rewire: '1.1.x' },
+317 silly resolved     scripts: { test: './node_modules/mocha/bin/mocha test' },
+317 silly resolved     engines: { node: '*' },
+317 silly resolved     bugs: 'https://github.com/oortcloud/node-ddp-client/issues',
+317 silly resolved     readme: 'Node DDP Client\n===============\n\nA callback style DDP ([Meteor](http://meteor.com/)\'s Distributed Data Protocol) node client.\n\nBased _heavily_ on alansikora\'s [node-js_ddp-client](https://github.com/alansikora/node-js_ddp-client), and meteor\'s python client. Uses a more callback style approach.\n\nThe client implements the pre1 version of DDP, with optional [EJSON](http://docs.meteor.com/#ejson) support. It is unfinished at this point, but should do most of what you want it to do.\n\nInstallation\n============\n\n```\n  npm install ddp\n```\n\nExample\n=======\n\nPlease see the example in `examples/example.js`. Or here for reference:\n\n```js\nvar DDPClient = require("ddp");\n\nvar ddpclient = new DDPClient({\n  host: "localhost", \n  port: 3000,\n  /* optional: */\n  auto_reconnect: true,\n  auto_reconnect_timer: 500,\n  use_ejson: true,  // default is false\n  use_ssl: false, //connect to SSL server,\n  use_ssl_strict: true, //Set to false if you have root ca trouble.\n  maintain_collections: true //Set to false to maintain your own collections.\n});\n\nddpclient.connect(function(error) {\n  if (error) {\n    console.log(\'DDP connection error!\');\n    return;\n  }\n  \n  console.log(\'connected!\');\n  \n  ddpclient.loginWithUsername("myusername","ddp-rocks",function(err, result) {\n      //Do stuff after login\n  });\n  \n  ddpclient.call(\'test-function\', [\'foo\', \'bar\'], function(err, result) {\n    console.log(\'called function, result: \' + result);\n  })\n  \n  ddpclient.subscribe(\'posts\', [], function() {\n    console.log(\'posts complete:\');\n    console.log(ddpclient.collections.posts);\n  })\n});\n\n/*\n * Useful for debugging and learning the ddp protocol\n */\nddpclient.on(\'message\', function(msg) {\n  console.log("ddp message: " + msg);\n});\n\n/* \n * If you need to do something specific on close or errors.\n * (You can also disable auto_reconnect and call ddpclient.connect()\n * when you are ready to re-connect.)\n*/\nddpclient.on(\'socket-close\', function(code, message) {\n  console.log("Close: %s %s", code, message);\n});\n\nddpclient.on(\'socket-error\', function(error) {\n  console.log("Error: %j", error);\n});\n```\n\nUnimplemented Features\n====\n* Server to Client messages\n  * \'addedBefore\'\n  * \'movedBefore\'\n  * \'error\'\n  * \'updated\'\n\n\n\nThanks\n======\n\nMany thanks to Alan Sikora for the ddp-client which formed the inspiration for this code.\n\nContributions:\n * Tom Coleman (@tmeasday)\n * Thomas Sarlandie (@sarfata)\n * Mason Gravitt (@emgee3)\n * Mike Bannister (@possiblities)\n * Chris Mather (@eventedmind)\n * James Gill (@jagill)\n',
+317 silly resolved     readmeFilename: 'README.markdown',
+317 silly resolved     _id: 'ddp@0.4.6',
+317 silly resolved     _from: 'ddp@>=0.3.1 <0.5.0' },
+317 silly resolved   { name: 'wrench',
+317 silly resolved     description: 'Recursive filesystem (and other) operations that Node *should* have.',
+317 silly resolved     version: '1.3.9',
+317 silly resolved     author: { name: 'Ryan McGrath', email: 'ryan@venodesigns.net' },
+317 silly resolved     repository:
+317 silly resolved      { type: 'git',
+317 silly resolved        url: 'https://ryanmcgrath@github.com/ryanmcgrath/wrench-js.git' },
+317 silly resolved     bugs: { url: 'http://github.com/ryanmcgrath/wrench-js/issues' },
+317 silly resolved     directories: { lib: './lib/' },
+317 silly resolved     dependencies: {},
+317 silly resolved     devDependencies: { nodeunit: '>= 0.6.4' },
+317 silly resolved     main: './lib/wrench',
+317 silly resolved     engines: { node: '>=0.1.97' },
+317 silly resolved     scripts: { test: 'nodeunit tests/runner.js' },
+317 silly resolved     licenses: [ [Object] ],
+317 silly resolved     readme: 'wrench.js - Recursive file operations in Node.js\n----------------------------------------------------------------------------\nWhile I love Node.js, I\'ve found myself missing some functions. Things like\nrecursively deleting/chmodding a directory (or even deep copying a directory),\nor even a basic line reader, shouldn\'t need to be re-invented time and time again.\n\nThat said, here\'s my attempt at a re-usable solution, at least until something\nmore formalized gets integrated into Node.js (*hint hint*). wrench.js is fairly simple\nto use - check out the documentation/examples below:\n\nInstallation\n-----------------------------------------------------------------------------\n\n    npm install wrench\n\nUsage\n-----------------------------------------------------------------------------\n``` javascript\nvar wrench = require(\'wrench\'),\n\tutil = require(\'util\');\n```\n\n### Synchronous operations\n``` javascript\n// Recursively create directories, sub-trees and all.\nwrench.mkdirSyncRecursive(dir, 0777);\n\n// Recursively delete the entire sub-tree of a directory, then kill the directory\nwrench.rmdirSyncRecursive(\'my_directory_name\', failSilently);\n\n// Recursively read directories contents.\nwrench.readdirSyncRecursive(\'my_directory_name\');\n\n// Recursively chmod the entire sub-tree of a directory\nwrench.chmodSyncRecursive(\'my_directory_name\', 0755);\n\n// Recursively chown the entire sub-tree of a directory\nwrench.chownSyncRecursive("directory", uid, gid);\n\n// Deep-copy an existing directory\nwrench.copyDirSyncRecursive(\'directory_to_copy\', \'location_where_copy_should_end_up\');\n\n// Read lines in from a file until you hit the end\nvar f = new wrench.LineReader(\'x.txt\');\nwhile(f.hasNextLine()) {\n\tutil.puts(x.getNextLine());\n}\n```\n\n### Asynchronous operations\n``` javascript\n// Recursively read directories contents\nvar files = [];\nwrench.readdirRecursive(\'my_directory_name\', function(error, curFiles) {\n    // curFiles is what you want\n});\n\n```\n\nQuestions, comments? Hit me up. (ryan [at] venodesigns.net | http://twitter.com/ryanmcgrath)\n',
+317 silly resolved     readmeFilename: 'readme.md',
+317 silly resolved     _id: 'wrench@1.3.9',
+317 silly resolved     _from: 'wrench@1.3.9' },
+317 silly resolved   { author:
+317 silly resolved      { name: 'Isaac Z. Schlueter',
+317 silly resolved        email: 'i@izs.me',
+317 silly resolved        url: 'http://blog.izs.me/' },
+317 silly resolved     name: 'fstream',
+317 silly resolved     description: 'Advanced file system stream things',
+317 silly resolved     version: '1.0.8',
+317 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/fstream.git' },
+317 silly resolved     main: 'fstream.js',
+317 silly resolved     engines: { node: '>=0.6' },
+317 silly resolved     dependencies:
+317 silly resolved      { 'graceful-fs': '^4.1.2',
+317 silly resolved        inherits: '~2.0.0',
+317 silly resolved        mkdirp: '>=0.5 0',
+317 silly resolved        rimraf: '2' },
+317 silly resolved     devDependencies: { standard: '^4.0.0', tap: '^1.2.0' },
+317 silly resolved     scripts: { test: 'standard && tap examples/*.js' },
+317 silly resolved     license: 'ISC',
+317 silly resolved     readme: 'Like FS streams, but with stat on them, and supporting directories and\nsymbolic links, as well as normal files.  Also, you can use this to set\nthe stats on a file, even if you don\'t change its contents, or to create\na symlink, etc.\n\nSo, for example, you can "write" a directory, and it\'ll call `mkdir`.  You\ncan specify a uid and gid, and it\'ll call `chown`.  You can specify a\n`mtime` and `atime`, and it\'ll call `utimes`.  You can call it a symlink\nand provide a `linkpath` and it\'ll call `symlink`.\n\nNote that it won\'t automatically resolve symbolic links.  So, if you\ncall `fstream.Reader(\'/some/symlink\')` then you\'ll get an object\nthat stats and then ends immediately (since it has no data).  To follow\nsymbolic links, do this: `fstream.Reader({path:\'/some/symlink\', follow:\ntrue })`.\n\nThere are various checks to make sure that the bytes emitted are the\nsame as the intended size, if the size is set.\n\n## Examples\n\n```javascript\nfstream\n  .Writer({ path: "path/to/file"\n          , mode: 0755\n          , size: 6\n          })\n  .write("hello\\n")\n  .end()\n```\n\nThis will create the directories if they\'re missing, and then write\n`hello\\n` into the file, chmod it to 0755, and assert that 6 bytes have\nbeen written when it\'s done.\n\n```javascript\nfstream\n  .Writer({ path: "path/to/file"\n          , mode: 0755\n          , size: 6\n          , flags: "a"\n          })\n  .write("hello\\n")\n  .end()\n```\n\nYou can pass flags in, if you want to append to a file.\n\n```javascript\nfstream\n  .Writer({ path: "path/to/symlink"\n          , linkpath: "./file"\n          , SymbolicLink: true\n          , mode: "0755" // octal strings supported\n          })\n  .end()\n```\n\nIf isSymbolicLink is a function, it\'ll be called, and if it returns\ntrue, then it\'ll treat it as a symlink.  If it\'s not a function, then\nany truish value will make a symlink, or you can set `type:\n\'SymbolicLink\'`, which does the same thing.\n\nNote that the linkpath is relative to the symbolic link location, not\nthe parent dir or cwd.\n\n```javascript\nfstream\n  .Reader("path/to/dir")\n  .pipe(fstream.Writer("path/to/other/dir"))\n```\n\nThis will do like `cp -Rp path/to/dir path/to/other/dir`.  If the other\ndir exists and isn\'t a directory, then it\'ll emit an error.  It\'ll also\nset the uid, gid, mode, etc. to be identical.  In this way, it\'s more\nlike `rsync -a` than simply a copy.\n',
+317 silly resolved     readmeFilename: 'README.md',
+317 silly resolved     _id: 'fstream@1.0.8',
+317 silly resolved     _from: 'fstream@>=0.1.18' },
+317 silly resolved   { name: 'underscore',
+317 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+317 silly resolved     homepage: 'http://documentcloud.github.com/underscore/',
+317 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+317 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+317 silly resolved     repository:
+317 silly resolved      { type: 'git',
+317 silly resolved        url: 'git://github.com/documentcloud/underscore.git' },
+317 silly resolved     main: 'underscore.js',
+317 silly resolved     version: '1.3.3',
+317 silly resolved     readme: '                       __                                                         \n                      /\\ \\                                                         __           \n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____  \n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\ \n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/ \n                                                                                  \\ \\____/      \n                                                                                   \\/___/\n                                                                               \nUnderscore.js is a utility-belt library for JavaScript that provides \nsupport for the usual functional suspects (each, map, reduce, filter...) \nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://documentcloud.github.com/underscore/\n\nMany thanks to our contributors:\nhttps://github.com/documentcloud/underscore/contributors\n',
+317 silly resolved     readmeFilename: 'README.md',
+317 silly resolved     _id: 'underscore@1.3.3',
+317 silly resolved     _from: 'underscore@1.3.3' },
+317 silly resolved   { name: 'rolling_timeout_exec',
+317 silly resolved     version: '0.0.1',
+317 silly resolved     description: 'Wrapper around child_process.exec that provides a rolling timeout based on stdout/stderr activity.',
+317 silly resolved     main: './index.js',
+317 silly resolved     dependencies: {},
+317 silly resolved     devDependencies: { tap: '~0.4.8' },
+317 silly resolved     scripts: { test: 'tap ./test/*.js' },
+317 silly resolved     repository:
+317 silly resolved      { type: 'git',
+317 silly resolved        url: 'https://github.com/alanning/rolling_timeout_exec.git' },
+317 silly resolved     files: [ 'README.md', 'index.js', 'History.md' ],
+317 silly resolved     keywords: [ 'rolling timeout', 'timeout', 'child process', 'exec' ],
+317 silly resolved     bugs: 'https://github.com/alanning/rolling_timeout_exec/issues',
+317 silly resolved     author: { name: 'Adrian Lanning' },
+317 silly resolved     license: 'MIT',
+317 silly resolved     readme: 'rolling_timeout_exec\n====================\n\nWrapper around `child_process.exec` that provides a rolling timeout based on stdout/stderr activity.\n\n### Goal\n\nThe goal of this package is to provide a practical way to tell the difference between a slow child process and a hung child process.\n\n\n### Changes\n\nThis package adds a new `rollingTimeout` option to `exec`.\n\n`rollingTimeout` expects a numeric value representing the number of milliseconds to wait for activity from child processes before killing the child.\n\nActivity means any output to `stdout` or `stderr`.\n\nIf a rollingTimeout is triggered, the child process is killed in the same way that `timeout` does, using `options.killSignal` and defaulting to `SIGTERM`.  A `rolling-timeout` event is also emitted on the child process.\n\n\n### Usage\n\n```sh\n$ npm install rolling_timeout_exec\n```\n\n```js\nvar exec = require(\'rolling_timeout_exec\').exec,\n    child,\n    command,\n    options,\n    timeout = false;\n\ncommand = \'git clone --progress http://some-slow-server.example.com/repo\';\noptions = { rollingTimeout: 5000 };\n\nchild = exec(command, options, function (err, stdout, stderr) {\n  if (err) {\n    if (timeout) {\n      console.error(\'timed out\');\n    }\n    console.error(err.message, err.code);\n    console.error(stdout);\n    console.error(stderr);\n  } else {\n    console.log(\'git clone completed!\');\n  }\n});\n\nchild.on(\'rolling-timeout\', function () {\n  timeout = true;\n})\n```\n\n### Test\n\nSteps to run test suite:\n\n```sh\n$ cd ~/tmp\n$ git clone https://github.com/alanning/rolling_timeout_exec.git\n$ cd rolling_timeout_exec\n$ npm install\n$ npm test\n```\n',
+317 silly resolved     readmeFilename: 'README.md',
+317 silly resolved     _id: 'rolling_timeout_exec@0.0.1',
+317 silly resolved     _from: 'rolling_timeout_exec@>=0.0.1' },
+317 silly resolved   { name: 'colors',
+317 silly resolved     description: 'get colors in your node.js console like what',
+317 silly resolved     version: '0.6.0-1',
+317 silly resolved     author: { name: 'Marak Squires' },
+317 silly resolved     repository: { type: 'git', url: 'http://github.com/Marak/colors.js.git' },
+317 silly resolved     engines: { node: '>=0.1.90' },
+317 silly resolved     main: 'colors',
+317 silly resolved     readme: '# colors.js - get color and style in your node.js console ( and browser ) like what\n\n<img src="http://i.imgur.com/goJdO.png" border = "0"/>\n\n\n## Installation\n\n    npm install colors\n\n## colors and styles!\n\n- bold\n- italic\n- underline\n- inverse\n- yellow\n- cyan\n- white\n- magenta\n- green\n- red\n- grey\n- blue\n- rainbow\n- zebra\n- random\n\n## Usage\n\n``` js\nvar colors = require(\'./colors\');\n\nconsole.log(\'hello\'.green); // outputs green text\nconsole.log(\'i like cake and pies\'.underline.red) // outputs red underlined text\nconsole.log(\'inverse the color\'.inverse); // inverses the color\nconsole.log(\'OMG Rainbows!\'.rainbow); // rainbow (ignores spaces)\n```\n\n# Creating Custom themes\n\n```js\n\nvar require(\'colors\');\n\ncolors.setTheme({\n  silly: \'rainbow\',\n  input: \'grey\',\n  verbose: \'cyan\',\n  prompt: \'grey\',\n  info: \'green\',\n  data: \'grey\',\n  help: \'cyan\',\n  warn: \'yellow\',\n  debug: \'blue\',\n  error: \'red\'\n});\n\n// outputs red text\nconsole.log("this is an error".error);\n\n// outputs yellow text\nconsole.log("this is a warning".warn);\n```\n\n\n### Contributors \n\nMarak (Marak Squires)\nAlexis Sellier (cloudhead)\nmmalecki (Maciej Małecki)\nnicoreed (Nico Reed)\nmorganrallen (Morgan Allen)\nJustinCampbell (Justin Campbell)\nded (Dustin Diaz)\n\n\n####  , Marak Squires , Justin Campbell, Dustin Diaz (@ded)\n',
+317 silly resolved     readmeFilename: 'ReadMe.md',
+317 silly resolved     _id: 'colors@0.6.0-1',
+317 silly resolved     _from: 'colors@0.6.0-1' },
+317 silly resolved   { name: 'optimist',
+317 silly resolved     version: '0.6.1',
+317 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+317 silly resolved     main: './index.js',
+317 silly resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+317 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+317 silly resolved     scripts: { test: 'tap ./test/*.js' },
+317 silly resolved     repository:
+317 silly resolved      { type: 'git',
+317 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+317 silly resolved     keywords:
+317 silly resolved      [ 'argument',
+317 silly resolved        'args',
+317 silly resolved        'option',
+317 silly resolved        'parser',
+317 silly resolved        'parsing',
+317 silly resolved        'cli',
+317 silly resolved        'command' ],
+317 silly resolved     author:
+317 silly resolved      { name: 'James Halliday',
+317 silly resolved        email: 'mail@substack.net',
+317 silly resolved        url: 'http://substack.net' },
+317 silly resolved     license: 'MIT/X11',
+317 silly resolved     engine: { node: '>=0.4' },
+317 silly resolved     readme: '# DEPRECATION NOTICE\n\nI don\'t want to maintain this module anymore since I just use\n[minimist](https://npmjs.org/package/minimist), the argument parsing engine,\ndirectly instead nowadays.\n\nSee [yargs](https://github.com/chevex/yargs) for the modern, pirate-themed\nsuccessor to optimist.\n\n[![yarrrrrrrgs!](http://i.imgur.com/4WFGVJ9.png)](https://github.com/chevex/yargs)\n\nYou should also consider [nomnom](https://github.com/harthur/nomnom).\n\noptimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\nshort numbers\n-------------\n\nShort numeric `head -n5` style argument work too:\n\n    $ node reflect.js -n123 -m456\n    { \'3\': true,\n      \'6\': true,\n      _: [],\n      \'$0\': \'node ./reflect.js\',\n      n: 123,\n      m: 456 }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+317 silly resolved     readmeFilename: 'readme.markdown',
+317 silly resolved     _id: 'optimist@0.6.1',
+317 silly resolved     _from: 'optimist@>=0.3.4' },
+317 silly resolved   { name: 'async',
+317 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+317 silly resolved     main: './lib/async',
+317 silly resolved     author: { name: 'Caolan McMahon' },
+317 silly resolved     version: '0.2.9',
+317 silly resolved     repository: { type: 'git', url: 'https://github.com/caolan/async.git' },
+317 silly resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+317 silly resolved     licenses: [ [Object] ],
+317 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+317 silly resolved     jam: { main: 'lib/async.js', include: [Object] },
+317 silly resolved     scripts: { test: 'nodeunit test/test-async.js' },
+317 silly resolved     readme: '# Async.js\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [node.js](http://nodejs.org), it can also be used directly in the\nbrowser. Also supports [component](https://github.com/component/component).\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (map, reduce, filter, each…) as well as some common patterns\nfor asynchronous control flow (parallel, series, waterfall…). All these\nfunctions assume you follow the node.js convention of providing a single\ncallback as the last argument of your async function.\n\n\n## Quick Examples\n\n```javascript\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n\nasync.parallel([\n    function(){ ... },\n    function(){ ... }\n], callback);\n\nasync.series([\n    function(){ ... },\n    function(){ ... }\n]);\n```\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n## Common Pitfalls\n\n### Binding a context to an iterator\n\nThis section is really about bind, not about async. If you are wondering how to\nmake async execute your iterators in a given context, or are confused as to why\na method of another library isn\'t working as an iterator, study this example:\n\n```js\n// Here is a simple object with an (unnecessarily roundabout) squaring method\nvar AsyncSquaringLibrary = {\n  squareExponent: 2,\n  square: function(number, callback){ \n    var result = Math.pow(number, this.squareExponent);\n    setTimeout(function(){\n      callback(null, result);\n    }, 200);\n  }\n};\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square, function(err, result){\n  // result is [NaN, NaN, NaN]\n  // This fails because the `this.squareExponent` expression in the square\n  // function is not evaluated in the context of AsyncSquaringLibrary, and is\n  // therefore undefined.\n});\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square.bind(AsyncSquaringLibrary), function(err, result){\n  // result is [1, 4, 9]\n  // With the help of bind we can attach a context to the iterator before\n  // passing it to async. Now the square function will be executed in its \n  // \'home\' AsyncSquaringLibrary context and the value of `this.squareExponent`\n  // will be as expected.\n});\n```\n\n## Download\n\nThe source is available for download from\n[GitHub](http://github.com/caolan/async).\nAlternatively, you can install using Node Package Manager (npm):\n\n    npm install async\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 29.6kb Uncompressed\n\n## In the Browser\n\nSo far it\'s been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. Usage:\n\n```html\n<script type="text/javascript" src="async.js"></script>\n<script type="text/javascript">\n\n    async.map(data, asyncProcess, function(err, results){\n        alert(results);\n    });\n\n</script>\n```\n\n## Documentation\n\n### Collections\n\n* [each](#each)\n* [map](#map)\n* [filter](#filter)\n* [reject](#reject)\n* [reduce](#reduce)\n* [detect](#detect)\n* [sortBy](#sortBy)\n* [some](#some)\n* [every](#every)\n* [concat](#concat)\n\n### Control Flow\n\n* [series](#series)\n* [parallel](#parallel)\n* [whilst](#whilst)\n* [doWhilst](#doWhilst)\n* [until](#until)\n* [doUntil](#doUntil)\n* [forever](#forever)\n* [waterfall](#waterfall)\n* [compose](#compose)\n* [applyEach](#applyEach)\n* [queue](#queue)\n* [cargo](#cargo)\n* [auto](#auto)\n* [iterator](#iterator)\n* [apply](#apply)\n* [nextTick](#nextTick)\n* [times](#times)\n* [timesSeries](#timesSeries)\n\n### Utils\n\n* [memoize](#memoize)\n* [unmemoize](#unmemoize)\n* [log](#log)\n* [dir](#dir)\n* [noConflict](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n<a name="each" />\n### each(arr, iterator, callback)\n\nApplies an iterator function to each item in an array, in parallel.\nThe iterator is called with an item from the list and a callback for when it\nhas finished. If the iterator passes an error to this callback, the main\ncallback for the each function is immediately called with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err) which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit null argument.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n```js\n// assuming openFiles is an array of file names and saveFile is a function\n// to save the modified contents of that file:\n\nasync.each(openFiles, saveFile, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="forEachSeries" />\n<a name="eachSeries" />\n### eachSeries(arr, iterator, callback)\n\nThe same as each only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. This means the iterator functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n<a name="eachLimit" />\n### eachLimit(arr, limit, iterator, callback)\n\nThe same as each only no more than "limit" iterators will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that\n the first "limit" iterator functions will complete before any others are \nstarted.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - The maximum number of iterators to run at any time.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err) which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit null argument.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n```js\n// Assume documents is an array of JSON objects and requestApi is a\n// function that interacts with a rate-limited REST api.\n\nasync.eachLimit(documents, 20, requestApi, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in the given array through\nthe iterator function. The iterator is called with an item from the array and a\ncallback for when it has finished processing. The callback takes 2 arguments, \nan error and the transformed item from the array. If the iterator passes an\nerror to this callback, the main callback for the map function is immediately\ncalled with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order, however\nthe results array will be in the same order as the original array.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, transformed) which must be called once \n  it has completed with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n```js\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as map only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="mapLimit" />\n### mapLimit(arr, limit, iterator, callback)\n\nThe same as map only no more than "limit" iterators will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that\n the first "limit" iterator functions will complete before any others are \nstarted.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - The maximum number of iterators to run at any time.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, transformed) which must be called once \n  it has completed with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n```js\nasync.map([\'file1\',\'file2\',\'file3\'], 1, fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ select\n\nReturns a new array of all the values which pass an async truth test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(results) - A callback which is called after all the iterator\n  functions have finished.\n\n__Example__\n\n```js\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n```\n\n---------------------------------------\n\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__alias:__ selectSeries\n\nThe same as filter only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of filter. Removes values that pass an async truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as reject, only the iterator is applied to each item in the array\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__aliases:__ inject, foldl\n\nReduces a list of values into a single value using an async iterator to return\neach successive step. Memo is the initial state of the reduction. This\nfunction only operates in series. For performance reasons, it may make sense to\nsplit a call to this function into a parallel map, then use the normal\nArray.prototype.reduce on the results. This function is for situations where\neach step in the reduction needs to be async, if you can get the data before\nreducing it then it\'s probably a good idea to do so.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* memo - The initial state of the reduction.\n* iterator(memo, item, callback) - A function applied to each item in the\n  array to produce the next step in the reduction. The iterator is passed a\n  callback(err, reduction) which accepts an optional error as its first \n  argument, and the state of the reduction as the second. If an error is \n  passed to the callback, the reduction is stopped and the main callback is \n  immediately called with the error.\n* callback(err, result) - A callback which is called after all the iterator\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n```js\nasync.reduce([1,2,3], 0, function(memo, item, callback){\n    // pointless async:\n    process.nextTick(function(){\n        callback(null, memo + item)\n    });\n}, function(err, result){\n    // result is now equal to the last value of memo, which is 6\n});\n```\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ foldr\n\nSame as reduce, only operates on the items in the array in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in a list that passes an async truth test. The\niterator is applied in parallel, meaning the first iterator to return true will\nfire the detect callback with that result. That means the result might not be\nthe first item in the original array (in terms of order) that passes the test.\n\nIf order within the original array is important then look at detectSeries.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value undefined if none passed.\n\n__Example__\n\n```js\nasync.detect([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // result now equals the first file in the list that exists\n});\n```\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as detect, only the iterator is applied to each item in the array\nin series. This means the result is always the first in the original array (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each value through an async iterator.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, sortValue) which must be called once it\n  has completed with an error (which can be null) and a value to use as the sort\n  criteria.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is the items from\n  the original array sorted by the values returned by the iterator calls.\n\n__Example__\n\n```js\nasync.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n    fs.stat(file, function(err, stats){\n        callback(err, stats.mtime);\n    });\n}, function(err, results){\n    // results is now the original array of files sorted by\n    // modified date\n});\n```\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ any\n\nReturns true if at least one element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists. Once any iterator\ncall returns true, the main callback is immediately called.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  either true or false depending on the values of the async tests.\n\n__Example__\n\n```js\nasync.some([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then at least one of the files exists\n});\n```\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ all\n\nReturns true if every element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like fs.exists.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback(truthValue) which must be called with a \n  boolean argument once it has completed.\n* callback(result) - A callback which is called after all the iterator\n  functions have finished. Result will be either true or false depending on\n  the values of the async tests.\n\n__Example__\n\n```js\nasync.every([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then every file exists\n});\n```\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies an iterator to each item in a list, concatenating the results. Returns the\nconcatenated list. The iterators are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of the arguments passed to the iterator function.\n\n__Arguments__\n\n* arr - An array to iterate over\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback(err, results) which must be called once it \n  has completed with an error (which can be null) and an array of results.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array containing\n  the concatenated results of the iterator function.\n\n__Example__\n\n```js\nasync.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n    // files is now a list of filenames that exist in the 3 directories\n});\n```\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as async.concat, but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun an array of functions in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run and the callback for the series is\nimmediately called with the value of the error. Once the tasks have completed,\nthe results are passed to the final callback as an array.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.series.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed\n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.series([\n    function(callback){\n        // do some stuff ...\n        callback(null, \'one\');\n    },\n    function(callback){\n        // do some more stuff ...\n        callback(null, \'two\');\n    }\n],\n// optional callback\nfunction(err, results){\n    // results is now equal to [\'one\', \'two\']\n});\n\n\n// an example using an object instead of an array\nasync.series({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equal to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun an array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main callback is immediately called with the value of the error.\nOnce the tasks have completed, the results are passed to the final callback as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.parallel.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed \n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.parallel([\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'one\');\n        }, 200);\n    },\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'two\');\n        }, 100);\n    }\n],\n// optional callback\nfunction(err, results){\n    // the results array will equal [\'one\',\'two\'] even though\n    // the second function had a shorter timeout.\n});\n\n\n// an example using an object instead of an array\nasync.parallel({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equals to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallelLimit(tasks, limit, [callback])\n\nThe same as parallel only the tasks are executed in parallel with a maximum of "limit" \ntasks executing at any time.\n\nNote that the tasks are not executed in batches, so there is no guarantee that \nthe first "limit" tasks will complete before any others are started.\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed \n  a callback(err, result) it must call on completion with an error (which can\n  be null) and an optional result value.\n* limit - The maximum number of tasks to run at any time.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call fn, while test returns true. Calls the callback when stopped,\nor an error occurs.\n\n__Arguments__\n\n* test() - synchronous truth test to perform before each execution of fn.\n* fn(callback) - A function to call each time the test passes. The function is\n  passed a callback(err) which must be called once it has completed with an \n  optional error argument.\n* callback(err) - A callback which is called after the test fails and repeated\n  execution of fn has stopped.\n\n__Example__\n\n```js\nvar count = 0;\n\nasync.whilst(\n    function () { return count < 5; },\n    function (callback) {\n        count++;\n        setTimeout(callback, 1000);\n    },\n    function (err) {\n        // 5 seconds have passed\n    }\n);\n```\n\n---------------------------------------\n\n<a name="doWhilst" />\n### doWhilst(fn, test, callback)\n\nThe post check version of whilst. To reflect the difference in the order of operations `test` and `fn` arguments are switched. `doWhilst` is to `whilst` as `do while` is to `while` in plain JavaScript.\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call fn, until test returns true. Calls the callback when stopped,\nor an error occurs.\n\nThe inverse of async.whilst.\n\n---------------------------------------\n\n<a name="doUntil" />\n### doUntil(fn, test, callback)\n\nLike doWhilst except the test is inverted. Note the argument ordering differs from `until`.\n\n---------------------------------------\n\n<a name="forever" />\n### forever(fn, callback)\n\nCalls the asynchronous function \'fn\' repeatedly, in series, indefinitely.\nIf an error is passed to fn\'s callback then \'callback\' is called with the\nerror, otherwise it will never be called.\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns an array of functions in series, each passing their results to the next in\nthe array. However, if any of the functions pass an error to the callback, the\nnext function is not executed and the main callback is immediately called with\nthe error.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a \n  callback(err, result1, result2, ...) it must call on completion. The first\n  argument is an error (which can be null) and any further arguments will be \n  passed as arguments in order to the next task.\n* callback(err, [results]) - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n```js\nasync.waterfall([\n    function(callback){\n        callback(null, \'one\', \'two\');\n    },\n    function(arg1, arg2, callback){\n        callback(null, \'three\');\n    },\n    function(arg1, callback){\n        // arg1 now equals \'three\'\n        callback(null, \'done\');\n    }\n], function (err, result) {\n   // result now equals \'done\'    \n});\n```\n\n---------------------------------------\n<a name="compose" />\n### compose(fn1, fn2...)\n\nCreates a function which is a composition of the passed asynchronous\nfunctions. Each function consumes the return value of the function that\nfollows. Composing functions f(), g() and h() would produce the result of\nf(g(h())), only this version uses callbacks to obtain the return values.\n\nEach function is executed with the `this` binding of the composed function.\n\n__Arguments__\n\n* functions... - the asynchronous functions to compose\n\n\n__Example__\n\n```js\nfunction add1(n, callback) {\n    setTimeout(function () {\n        callback(null, n + 1);\n    }, 10);\n}\n\nfunction mul3(n, callback) {\n    setTimeout(function () {\n        callback(null, n * 3);\n    }, 10);\n}\n\nvar add1mul3 = async.compose(mul3, add1);\n\nadd1mul3(4, function (err, result) {\n   // result now equals 15\n});\n```\n\n---------------------------------------\n<a name="applyEach" />\n### applyEach(fns, args..., callback)\n\nApplies the provided arguments to each function in the array, calling the\ncallback after all functions have completed. If you only provide the first\nargument then it will return a function which lets you pass in the\narguments as if it were a single function call.\n\n__Arguments__\n\n* fns - the asynchronous functions to all call with the same arguments\n* args... - any number of separate arguments to pass to the function\n* callback - the final argument should be the callback, called when all\n  functions have completed processing\n\n\n__Example__\n\n```js\nasync.applyEach([enableSearch, updateSchema], \'bucket\', callback);\n\n// partial application example:\nasync.each(\n    buckets,\n    async.applyEach([enableSearch, updateSchema]),\n    callback\n);\n```\n\n---------------------------------------\n\n<a name="applyEachSeries" />\n### applyEachSeries(arr, iterator, callback)\n\nThe same as applyEach only the functions are applied in series.\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a queue object with the specified concurrency. Tasks added to the\nqueue will be processed in parallel (up to the concurrency limit). If all\nworkers are in progress, the task is queued until one is available. Once\na worker has completed a task, the task\'s callback is called.\n\n__Arguments__\n\n* worker(task, callback) - An asynchronous function for processing a queued\n  task, which must call its callback(err) argument when finished, with an \n  optional error as an argument.\n* concurrency - An integer for determining how many worker functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe queue object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* concurrency - an integer for determining how many worker functions should be\n  run in parallel. This property can be changed after a queue is created to\n  alter the concurrency on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* unshift(task, [callback]) - add a new task to the front of the queue.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n```js\n// create a queue object with concurrency 2\n\nvar q = async.queue(function (task, callback) {\n    console.log(\'hello \' + task.name);\n    callback();\n}, 2);\n\n\n// assign a callback\nq.drain = function() {\n    console.log(\'all items have been processed\');\n}\n\n// add some items to the queue\n\nq.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\nq.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the queue (batch-wise)\n\nq.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the front of the queue\n\nq.unshift({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n```\n\n---------------------------------------\n\n<a name="cargo" />\n### cargo(worker, [payload])\n\nCreates a cargo object with the specified payload. Tasks added to the\ncargo will be processed altogether (up to the payload limit). If the\nworker is in progress, the task is queued until it is available. Once\nthe worker has completed some tasks, each callback of those tasks is called.\n\n__Arguments__\n\n* worker(tasks, callback) - An asynchronous function for processing an array of\n  queued tasks, which must call its callback(err) argument when finished, with \n  an optional error as an argument.\n* payload - An optional integer for determining how many tasks should be\n  processed per round; if omitted, the default is unlimited.\n\n__Cargo objects__\n\nThe cargo object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* payload - an integer for determining how many tasks should be\n  process per round. This property can be changed after a cargo is created to\n  alter the payload on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n```js\n// create a cargo object with payload 2\n\nvar cargo = async.cargo(function (tasks, callback) {\n    for(var i=0; i<tasks.length; i++){\n      console.log(\'hello \' + tasks[i].name);\n    }\n    callback();\n}, 2);\n\n\n// add some items\n\ncargo.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\ncargo.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\ncargo.push({name: \'baz\'}, function (err) {\n    console.log(\'finished processing baz\');\n});\n```\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running functions based on their requirements.\nEach function can optionally depend on other functions being completed first,\nand each function is run as soon as its requirements are satisfied. If any of\nthe functions pass an error to their callback, that function will not complete\n(so any other functions depending on it will not run) and the main callback\nwill be called immediately with the error. Functions also receive an object\ncontaining the results of functions which have completed so far.\n\nNote, all functions are called with a results object as a second argument, \nso it is unsafe to pass functions in the tasks object which cannot handle the\nextra argument. For example, this snippet of code:\n\n```js\nasync.auto({\n  readData: async.apply(fs.readFile, \'data.txt\', \'utf-8\');\n}, callback);\n```\n\nwill have the effect of calling readFile with the results object as the last\nargument, which will fail:\n\n```js\nfs.readFile(\'data.txt\', \'utf-8\', cb, {});\n```\n\nInstead, wrap the call to readFile in a function which does not forward the \nresults object:\n\n```js\nasync.auto({\n  readData: function(cb, results){\n    fs.readFile(\'data.txt\', \'utf-8\', cb);\n  }\n}, callback);\n```\n\n__Arguments__\n\n* tasks - An object literal containing named functions or an array of\n  requirements, with the function itself the last item in the array. The key\n  used for each function or array is used when specifying requirements. The \n  function receives two arguments: (1) a callback(err, result) which must be \n  called when finished, passing an error (which can be null) and the result of \n  the function\'s execution, and (2) a results object, containing the results of\n  the previously executed functions.\n* callback(err, results) - An optional callback which is called when all the\n  tasks have been completed. The callback will receive an error as an argument\n  if any tasks pass an error to their callback. Results will always be passed\n\tbut if an error occurred, no other tasks will be performed, and the results\n\tobject will only contain partial results.\n  \n\n__Example__\n\n```js\nasync.auto({\n    get_data: function(callback){\n        // async code to get some data\n    },\n    make_folder: function(callback){\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n    },\n    write_file: [\'get_data\', \'make_folder\', function(callback){\n        // once there is some data and the directory exists,\n        // write the data to a file in the directory\n        callback(null, filename);\n    }],\n    email_link: [\'write_file\', function(callback, results){\n        // once the file is written let\'s email a link to it...\n        // results.write_file contains the filename returned by write_file.\n    }]\n});\n```\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n```js\nasync.parallel([\n    function(callback){\n        // async code to get some data\n    },\n    function(callback){\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n    }\n],\nfunction(err, results){\n    async.series([\n        function(callback){\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n        },\n        function(callback){\n            // once the file is written let\'s email a link to it...\n        }\n    ]);\n});\n```\n\nFor a complicated series of async tasks using the auto function makes adding\nnew tasks much easier and makes the code more readable.\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the array,\nreturning a continuation to call the next one after that. It\'s also possible to\n\'peek\' the next iterator by doing iterator.next().\n\nThis function is used internally by the async module but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* tasks - An array of functions to run.\n\n__Example__\n\n```js\nvar iterator = async.iterator([\n    function(){ sys.p(\'one\'); },\n    function(){ sys.p(\'two\'); },\n    function(){ sys.p(\'three\'); }\n]);\n\nnode> var iterator2 = iterator();\n\'one\'\nnode> var iterator3 = iterator2();\n\'two\'\nnode> iterator3();\n\'three\'\nnode> var nextfn = iterator2.next();\nnode> nextfn();\n\'three\'\n```\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied, a useful\nshorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n```js\n// using apply\n\nasync.parallel([\n    async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n    async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n]);\n\n\n// the same process without using apply\n\nasync.parallel([\n    function(callback){\n        fs.writeFile(\'testfile1\', \'test1\', callback);\n    },\n    function(callback){\n        fs.writeFile(\'testfile2\', \'test2\', callback);\n    }\n]);\n```\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n```js\nnode> var fn = async.apply(sys.puts, \'one\');\nnode> fn(\'two\', \'three\');\none\ntwo\nthree\n```\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls the callback on a later loop around the event loop. In node.js this just\ncalls process.nextTick, in the browser it falls back to setImmediate(callback)\nif available, otherwise setTimeout(callback, 0), which means other higher priority\nevents may precede the execution of the callback.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* callback - The function to call on a later loop around the event loop.\n\n__Example__\n\n```js\nvar call_order = [];\nasync.nextTick(function(){\n    call_order.push(\'two\');\n    // call_order now equals [\'one\',\'two\']\n});\ncall_order.push(\'one\')\n```\n\n<a name="times" />\n### times(n, callback)\n\nCalls the callback n times and accumulates results in the same manner\nyou would use with async.map.\n\n__Arguments__\n\n* n - The number of times to run the function.\n* callback - The function to call n times.\n\n__Example__\n\n```js\n// Pretend this is some complicated async factory\nvar createUser = function(id, callback) {\n  callback(null, {\n    id: \'user\' + id\n  })\n}\n// generate 5 users\nasync.times(5, function(n, next){\n    createUser(n, function(err, user) {\n      next(err, user)\n    })\n}, function(err, users) {\n  // we should now have 5 users\n});\n```\n\n<a name="timesSeries" />\n### timesSeries(n, callback)\n\nThe same as times only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an async function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\nThe cache of results is exposed as the `memo` property of the function returned\nby `memoize`.\n\n__Arguments__\n\n* fn - the function you to proxy and cache results from.\n* hasher - an optional function for generating a custom hash for storing\n  results, it has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n```js\nvar slow_fn = function (name, callback) {\n    // do something\n    callback(null, result);\n};\nvar fn = async.memoize(slow_fn);\n\n// fn can now be used as if it were slow_fn\nfn(\'some name\', function () {\n    // callback\n});\n```\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a memoized function, reverting it to the original, unmemoized\nform. Comes handy in tests.\n\n__Arguments__\n\n* fn - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an async function to the console. Only works in node.js or\nin browsers that support console.log and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.log is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, \'hello \' + name);\n    }, 1000);\n};\n```\n```js\nnode> async.log(hello, \'world\');\n\'hello world\'\n```\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an async function to the console using console.dir to\ndisplay the properties of the resulting object. Only works in node.js or\nin browsers that support console.dir and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.dir is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, {hello: name});\n    }, 1000);\n};\n```\n```js\nnode> async.dir(hello, \'world\');\n{hello: \'world\'}\n```\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of async back to its original value, returning a reference to the\nasync object.\n',
+317 silly resolved     readmeFilename: 'README.md',
+317 silly resolved     _id: 'async@0.2.9',
+317 silly resolved     _from: 'async@0.2.9' } ]
+318 info install prompt@0.2.11 into /usr/local/lib/node_modules/meteorite
+319 info install ddp@0.4.6 into /usr/local/lib/node_modules/meteorite
+320 info install wrench@1.3.9 into /usr/local/lib/node_modules/meteorite
+321 info install fstream@1.0.8 into /usr/local/lib/node_modules/meteorite
+322 info install underscore@1.3.3 into /usr/local/lib/node_modules/meteorite
+323 info install rolling_timeout_exec@0.0.1 into /usr/local/lib/node_modules/meteorite
+324 info install colors@0.6.0-1 into /usr/local/lib/node_modules/meteorite
+325 info install optimist@0.6.1 into /usr/local/lib/node_modules/meteorite
+326 info install async@0.2.9 into /usr/local/lib/node_modules/meteorite
+327 info installOne prompt@0.2.11
+328 info installOne ddp@0.4.6
+329 info installOne wrench@1.3.9
+330 info installOne fstream@1.0.8
+331 info installOne underscore@1.3.3
+332 info installOne rolling_timeout_exec@0.0.1
+333 info installOne colors@0.6.0-1
+334 info installOne optimist@0.6.1
+335 info installOne async@0.2.9
+336 verbose from cache /root/.npm/prompt/0.2.11/package/package.json
+337 verbose from cache /root/.npm/ddp/0.4.6/package/package.json
+338 verbose from cache /root/.npm/wrench/1.3.9/package/package.json
+339 verbose from cache /root/.npm/fstream/1.0.8/package/package.json
+340 verbose from cache /root/.npm/underscore/1.3.3/package/package.json
+341 verbose from cache /root/.npm/rolling_timeout_exec/0.0.1/package/package.json
+342 verbose from cache /root/.npm/colors/0.6.0-1/package/package.json
+343 verbose from cache /root/.npm/optimist/0.6.1/package/package.json
+344 verbose from cache /root/.npm/async/0.2.9/package/package.json
+345 info /usr/local/lib/node_modules/meteorite/node_modules/prompt unbuild
+346 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/prompt/package.json
+347 info /usr/local/lib/node_modules/meteorite/node_modules/ddp unbuild
+348 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/ddp/package.json
+349 info /usr/local/lib/node_modules/meteorite/node_modules/wrench unbuild
+350 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/wrench/package.json
+351 info /usr/local/lib/node_modules/meteorite/node_modules/fstream unbuild
+352 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/fstream/package.json
+353 info /usr/local/lib/node_modules/meteorite/node_modules/underscore unbuild
+354 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/underscore/package.json
+355 info /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec unbuild
+356 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec/package.json
+357 info /usr/local/lib/node_modules/meteorite/node_modules/colors unbuild
+358 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/colors/package.json
+359 info /usr/local/lib/node_modules/meteorite/node_modules/optimist unbuild
+360 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/optimist/package.json
+361 info /usr/local/lib/node_modules/meteorite/node_modules/async unbuild
+362 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/async/package.json
+363 verbose tar unpack /root/.npm/prompt/0.2.11/package.tgz
+364 verbose tar unpack /root/.npm/ddp/0.4.6/package.tgz
+365 verbose tar unpack /root/.npm/wrench/1.3.9/package.tgz
+366 verbose tar unpack /root/.npm/fstream/1.0.8/package.tgz
+367 verbose tar unpack /root/.npm/underscore/1.3.3/package.tgz
+368 verbose tar unpack /root/.npm/rolling_timeout_exec/0.0.1/package.tgz
+369 verbose tar unpack /root/.npm/colors/0.6.0-1/package.tgz
+370 verbose tar unpack /root/.npm/optimist/0.6.1/package.tgz
+371 verbose tar unpack /root/.npm/async/0.2.9/package.tgz
+372 silly lockFile 18192601-es-meteorite-node-modules-prompt /usr/local/lib/node_modules/meteorite/node_modules/prompt
+373 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/prompt /root/.npm/18192601-es-meteorite-node-modules-prompt.lock
+374 silly lockFile 05d229db-ot-npm-prompt-0-2-11-package-tgz /root/.npm/prompt/0.2.11/package.tgz
+375 verbose lock /root/.npm/prompt/0.2.11/package.tgz /root/.npm/05d229db-ot-npm-prompt-0-2-11-package-tgz.lock
+376 silly lockFile e348eece-dules-meteorite-node-modules-ddp /usr/local/lib/node_modules/meteorite/node_modules/ddp
+377 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/ddp /root/.npm/e348eece-dules-meteorite-node-modules-ddp.lock
+378 silly lockFile efac8c1e-root-npm-ddp-0-4-6-package-tgz /root/.npm/ddp/0.4.6/package.tgz
+379 verbose lock /root/.npm/ddp/0.4.6/package.tgz /root/.npm/efac8c1e-root-npm-ddp-0-4-6-package-tgz.lock
+380 silly lockFile 93400b89-es-meteorite-node-modules-wrench /usr/local/lib/node_modules/meteorite/node_modules/wrench
+381 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/wrench /root/.npm/93400b89-es-meteorite-node-modules-wrench.lock
+382 silly lockFile fde7d284-oot-npm-wrench-1-3-9-package-tgz /root/.npm/wrench/1.3.9/package.tgz
+383 verbose lock /root/.npm/wrench/1.3.9/package.tgz /root/.npm/fde7d284-oot-npm-wrench-1-3-9-package-tgz.lock
+384 silly lockFile 4885c524-s-meteorite-node-modules-fstream /usr/local/lib/node_modules/meteorite/node_modules/fstream
+385 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/fstream /root/.npm/4885c524-s-meteorite-node-modules-fstream.lock
+386 silly lockFile 8f57c50e-ot-npm-fstream-1-0-8-package-tgz /root/.npm/fstream/1.0.8/package.tgz
+387 verbose lock /root/.npm/fstream/1.0.8/package.tgz /root/.npm/8f57c50e-ot-npm-fstream-1-0-8-package-tgz.lock
+388 silly lockFile b6004e82-eteorite-node-modules-underscore /usr/local/lib/node_modules/meteorite/node_modules/underscore
+389 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/underscore /root/.npm/b6004e82-eteorite-node-modules-underscore.lock
+390 silly lockFile 8e8566b2-npm-underscore-1-3-3-package-tgz /root/.npm/underscore/1.3.3/package.tgz
+391 verbose lock /root/.npm/underscore/1.3.3/package.tgz /root/.npm/8e8566b2-npm-underscore-1-3-3-package-tgz.lock
+392 silly lockFile c44eed8f-ode-modules-rolling-timeout-exec /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec
+393 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec /root/.npm/c44eed8f-ode-modules-rolling-timeout-exec.lock
+394 silly lockFile 3eb5ca1d-g-timeout-exec-0-0-1-package-tgz /root/.npm/rolling_timeout_exec/0.0.1/package.tgz
+395 verbose lock /root/.npm/rolling_timeout_exec/0.0.1/package.tgz /root/.npm/3eb5ca1d-g-timeout-exec-0-0-1-package-tgz.lock
+396 silly lockFile b3e64455-es-meteorite-node-modules-colors /usr/local/lib/node_modules/meteorite/node_modules/colors
+397 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/colors /root/.npm/b3e64455-es-meteorite-node-modules-colors.lock
+398 silly lockFile 9ebc0694-t-npm-colors-0-6-0-1-package-tgz /root/.npm/colors/0.6.0-1/package.tgz
+399 verbose lock /root/.npm/colors/0.6.0-1/package.tgz /root/.npm/9ebc0694-t-npm-colors-0-6-0-1-package-tgz.lock
+400 silly lockFile 515c8533--meteorite-node-modules-optimist /usr/local/lib/node_modules/meteorite/node_modules/optimist
+401 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/optimist /root/.npm/515c8533--meteorite-node-modules-optimist.lock
+402 silly lockFile 47fbff43-t-npm-optimist-0-6-1-package-tgz /root/.npm/optimist/0.6.1/package.tgz
+403 verbose lock /root/.npm/optimist/0.6.1/package.tgz /root/.npm/47fbff43-t-npm-optimist-0-6-1-package-tgz.lock
+404 silly lockFile 9f527616-les-meteorite-node-modules-async /usr/local/lib/node_modules/meteorite/node_modules/async
+405 verbose lock /usr/local/lib/node_modules/meteorite/node_modules/async /root/.npm/9f527616-les-meteorite-node-modules-async.lock
+406 silly lockFile 673d3faf-root-npm-async-0-2-9-package-tgz /root/.npm/async/0.2.9/package.tgz
+407 verbose lock /root/.npm/async/0.2.9/package.tgz /root/.npm/673d3faf-root-npm-async-0-2-9-package-tgz.lock
+408 silly gunzTarPerm modes [ '755', '644' ]
+409 silly gunzTarPerm modes [ '755', '644' ]
+410 silly gunzTarPerm modes [ '755', '644' ]
+411 silly gunzTarPerm modes [ '755', '644' ]
+412 silly gunzTarPerm modes [ '755', '644' ]
+413 silly gunzTarPerm modes [ '755', '644' ]
+414 silly gunzTarPerm modes [ '755', '644' ]
+415 silly gunzTarPerm modes [ '755', '644' ]
+416 silly gunzTarPerm modes [ '755', '644' ]
+417 silly gunzTarPerm extractEntry package.json
+418 silly gunzTarPerm extractEntry package.json
+419 silly gunzTarPerm extractEntry package.json
+420 silly gunzTarPerm extractEntry package.json
+421 silly gunzTarPerm extractEntry package.json
+422 silly gunzTarPerm extractEntry package.json
+423 silly gunzTarPerm extractEntry package.json
+424 silly gunzTarPerm extractEntry package.json
+425 silly gunzTarPerm extractEntry package.json
+426 silly gunzTarPerm extractEntry .npmignore
+427 silly gunzTarPerm extractEntry README.md
+428 silly gunzTarPerm extractEntry .npmignore
+429 silly gunzTarPerm extractEntry test/ddp-client.js
+430 silly gunzTarPerm extractEntry .npmignore
+431 silly gunzTarPerm extractEntry LICENSE
+432 silly gunzTarPerm extractEntry .npmignore
+433 silly gunzTarPerm extractEntry README.md
+434 silly gunzTarPerm extractEntry .npmignore
+435 silly gunzTarPerm extractEntry README.md
+436 silly gunzTarPerm extractEntry colors.js
+437 silly gunzTarPerm extractEntry test.js
+438 silly gunzTarPerm extractEntry README.md
+439 silly gunzTarPerm extractEntry index.js
+440 silly gunzTarPerm extractEntry LICENSE
+441 silly gunzTarPerm extractEntry index.js
+442 silly gunzTarPerm extractEntry README.md
+443 silly gunzTarPerm extractEntry LICENSE
+444 silly gunzTarPerm extractEntry LICENSE
+445 silly gunzTarPerm extractEntry lib/prompt.js
+446 silly gunzTarPerm extractEntry LICENSE
+447 silly gunzTarPerm extractEntry underscore-min.js
+448 silly gunzTarPerm extractEntry example.js
+449 silly gunzTarPerm extractEntry example.html
+450 silly gunzTarPerm extractEntry ReadMe.md
+451 silly gunzTarPerm extractEntry readme.md
+452 silly gunzTarPerm extractEntry lib/wrench.js
+453 silly gunzTarPerm extractEntry LICENSE
+454 silly gunzTarPerm extractEntry fstream.js
+455 silly gunzTarPerm extractEntry History.md
+456 silly gunzTarPerm extractEntry readme.markdown
+457 silly gunzTarPerm extractEntry test/parse_modified.js
+458 silly gunzTarPerm extractEntry component.json
+459 silly gunzTarPerm extractEntry lib/async.js
+460 silly gunzTarPerm extractEntry README.markdown
+461 silly gunzTarPerm extractEntry lib/ddp-client.js
+462 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+463 silly gunzTarPerm extractEntry docs/prompt.html
+464 silly gunzTarPerm extractEntry docs/docco.css
+465 silly gunzTarPerm extractEntry examples/prompt-override.js
+466 silly gunzTarPerm extractEntry index.js
+467 silly gunzTarPerm extractEntry underscore.js
+468 silly gunzTarPerm extractEntry CHANGELOG.md
+469 silly gunzTarPerm extractEntry examples/example.js
+470 silly gunzTarPerm extractEntry lib/x.js
+471 silly gunzTarPerm extractEntry tests/runner.js
+472 silly gunzTarPerm extractEntry lib/file-reader.js
+473 silly gunzTarPerm extractEntry lib/link-reader.js
+474 silly gunzTarPerm extractEntry test/whitespace.js
+475 silly gunzTarPerm extractEntry test/usage.js
+476 silly gunzTarPerm extractEntry test/dash.js
+477 silly gunzTarPerm extractEntry examples/override-validation.js
+478 silly gunzTarPerm extractEntry test/parse.js
+479 silly gunzTarPerm extractEntry examples/old-schema.js
+480 silly gunzTarPerm extractEntry raw/underscore.psd
+481 silly gunzTarPerm extractEntry favicon.ico
+482 silly gunzTarPerm extractEntry tests/readdir.js
+483 silly gunzTarPerm extractEntry tests/mkdir.js
+484 silly gunzTarPerm extractEntry lib/get-type.js
+485 silly gunzTarPerm extractEntry lib/socket-reader.js
+486 silly gunzTarPerm extractEntry test/_.js
+487 silly gunzTarPerm extractEntry examples/history.js
+488 silly gunzTarPerm extractEntry test/short.js
+489 silly gunzTarPerm extractEntry CNAME
+490 silly gunzTarPerm extractEntry index.html
+491 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec/package.json
+492 silly gunzTarPerm extractEntry tests/readdir/bar.txt
+493 silly gunzTarPerm extractEntry tests/readdir/foo/lorem.txt
+494 silly gunzTarPerm extractEntry tests/readdir/foo/bar/ipsum.js
+495 silly gunzTarPerm extractEntry test/_/bin.js
+496 silly gunzTarPerm extractEntry lib/dir-reader.js
+497 silly gunzTarPerm extractEntry lib/dir-writer.js
+498 silly gunzTarPerm extractEntry examples/password.js
+499 silly gunzTarPerm extractEntry examples/yes-or-no-prompt.js
+500 silly gunzTarPerm extractEntry tests/readdir/foo/dolor.md
+501 silly gunzTarPerm extractEntry test/_/argv.js
+502 silly gunzTarPerm extractEntry example/default_hash.js
+503 silly gunzTarPerm extractEntry example/divide.js
+504 silly lockFile c44eed8f-ode-modules-rolling-timeout-exec /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec
+505 silly lockFile c44eed8f-ode-modules-rolling-timeout-exec /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec
+506 silly gunzTarPerm extractEntry lib/collect.js
+507 silly gunzTarPerm extractEntry lib/abstract.js
+508 silly gunzTarPerm extractEntry lib/proxy-writer.js
+509 silly lockFile 3eb5ca1d-g-timeout-exec-0-0-1-package-tgz /root/.npm/rolling_timeout_exec/0.0.1/package.tgz
+510 silly lockFile 3eb5ca1d-g-timeout-exec-0-0-1-package-tgz /root/.npm/rolling_timeout_exec/0.0.1/package.tgz
+511 silly gunzTarPerm extractEntry examples/simple-prompt.js
+512 silly gunzTarPerm extractEntry examples/property-prompt.js
+513 silly gunzTarPerm extractEntry examples/nested-properties-prompt.js
+514 silly gunzTarPerm extractEntry example/boolean_single.js
+515 silly gunzTarPerm extractEntry lib/writer.js
+516 info preinstall rolling_timeout_exec@0.0.1
+517 silly gunzTarPerm extractEntry examples/existing-properties.js
+518 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec/package.json
+519 silly gunzTarPerm extractEntry example/usage-options.js
+520 silly gunzTarPerm extractEntry examples/add-properties.js
+521 silly gunzTarPerm extractEntry example/line_count.js
+522 silly gunzTarPerm extractEntry test/macros.js
+523 silly gunzTarPerm extractEntry example/reflect.js
+524 silly gunzTarPerm extractEntry lib/link-writer.js
+525 silly gunzTarPerm extractEntry lib/proxy-reader.js
+526 silly gunzTarPerm extractEntry test/helpers.js
+527 silly gunzTarPerm extractEntry test/prompt-test.js
+528 silly gunzTarPerm extractEntry example/bool.js
+529 silly gunzTarPerm extractEntry example/default_singles.js
+530 silly gunzTarPerm extractEntry lib/file-writer.js
+531 silly gunzTarPerm extractEntry lib/reader.js
+532 silly gunzTarPerm extractEntry test/interactive-prompt-test.js
+533 silly gunzTarPerm extractEntry .jshintrc
+534 silly gunzTarPerm extractEntry example/nonopt.js
+535 silly gunzTarPerm extractEntry example/line_count_wrap.js
+536 silly gunzTarPerm extractEntry .travis.yml
+537 silly gunzTarPerm extractEntry examples/filter-pipe.js
+538 silly gunzTarPerm extractEntry examples/symlink-write.js
+539 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/colors/package.json
+540 silly gunzTarPerm extractEntry example/line_count_options.js
+541 silly gunzTarPerm extractEntry example/boolean_double.js
+542 silly gunzTarPerm extractEntry example/string.js
+543 silly gunzTarPerm extractEntry examples/reader.js
+544 silly gunzTarPerm extractEntry examples/pipe.js
+545 silly gunzTarPerm extractEntry .travis.yml
+546 silly lockFile b3e64455-es-meteorite-node-modules-colors /usr/local/lib/node_modules/meteorite/node_modules/colors
+547 silly lockFile b3e64455-es-meteorite-node-modules-colors /usr/local/lib/node_modules/meteorite/node_modules/colors
+548 silly gunzTarPerm extractEntry CHANGELOG.md
+549 silly lockFile 9ebc0694-t-npm-colors-0-6-0-1-package-tgz /root/.npm/colors/0.6.0-1/package.tgz
+550 silly lockFile 9ebc0694-t-npm-colors-0-6-0-1-package-tgz /root/.npm/colors/0.6.0-1/package.tgz
+551 silly gunzTarPerm extractEntry example/short.js
+552 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/ddp/package.json
+553 info preinstall colors@0.6.0-1
+554 silly gunzTarPerm extractEntry example/xup.js
+555 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/colors/package.json
+556 silly lockFile e348eece-dules-meteorite-node-modules-ddp /usr/local/lib/node_modules/meteorite/node_modules/ddp
+557 silly lockFile e348eece-dules-meteorite-node-modules-ddp /usr/local/lib/node_modules/meteorite/node_modules/ddp
+558 silly lockFile efac8c1e-root-npm-ddp-0-4-6-package-tgz /root/.npm/ddp/0.4.6/package.tgz
+559 silly lockFile efac8c1e-root-npm-ddp-0-4-6-package-tgz /root/.npm/ddp/0.4.6/package.tgz
+560 silly gunzTarPerm extractEntry .travis.yml
+561 info preinstall ddp@0.4.6
+562 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/ddp/package.json
+563 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/wrench/package.json
+564 silly lockFile 93400b89-es-meteorite-node-modules-wrench /usr/local/lib/node_modules/meteorite/node_modules/wrench
+565 silly lockFile 93400b89-es-meteorite-node-modules-wrench /usr/local/lib/node_modules/meteorite/node_modules/wrench
+566 silly lockFile fde7d284-oot-npm-wrench-1-3-9-package-tgz /root/.npm/wrench/1.3.9/package.tgz
+567 silly lockFile fde7d284-oot-npm-wrench-1-3-9-package-tgz /root/.npm/wrench/1.3.9/package.tgz
+568 info preinstall wrench@1.3.9
+569 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/wrench/package.json
+570 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/async/package.json
+571 silly lockFile 9f527616-les-meteorite-node-modules-async /usr/local/lib/node_modules/meteorite/node_modules/async
+572 silly lockFile 9f527616-les-meteorite-node-modules-async /usr/local/lib/node_modules/meteorite/node_modules/async
+573 silly lockFile 673d3faf-root-npm-async-0-2-9-package-tgz /root/.npm/async/0.2.9/package.tgz
+574 silly lockFile 673d3faf-root-npm-async-0-2-9-package-tgz /root/.npm/async/0.2.9/package.tgz
+575 info preinstall async@0.2.9
+576 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/async/package.json
+577 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/fstream/package.json
+578 silly lockFile 4885c524-s-meteorite-node-modules-fstream /usr/local/lib/node_modules/meteorite/node_modules/fstream
+579 silly lockFile 4885c524-s-meteorite-node-modules-fstream /usr/local/lib/node_modules/meteorite/node_modules/fstream
+580 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/optimist/package.json
+581 silly lockFile 8f57c50e-ot-npm-fstream-1-0-8-package-tgz /root/.npm/fstream/1.0.8/package.tgz
+582 silly lockFile 8f57c50e-ot-npm-fstream-1-0-8-package-tgz /root/.npm/fstream/1.0.8/package.tgz
+583 info preinstall fstream@1.0.8
+584 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/fstream/package.json
+585 silly lockFile 515c8533--meteorite-node-modules-optimist /usr/local/lib/node_modules/meteorite/node_modules/optimist
+586 silly lockFile 515c8533--meteorite-node-modules-optimist /usr/local/lib/node_modules/meteorite/node_modules/optimist
+587 silly lockFile 47fbff43-t-npm-optimist-0-6-1-package-tgz /root/.npm/optimist/0.6.1/package.tgz
+588 silly lockFile 47fbff43-t-npm-optimist-0-6-1-package-tgz /root/.npm/optimist/0.6.1/package.tgz
+589 info preinstall optimist@0.6.1
+590 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/optimist/package.json
+591 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/prompt/package.json
+592 silly lockFile 18192601-es-meteorite-node-modules-prompt /usr/local/lib/node_modules/meteorite/node_modules/prompt
+593 silly lockFile 18192601-es-meteorite-node-modules-prompt /usr/local/lib/node_modules/meteorite/node_modules/prompt
+594 silly lockFile 05d229db-ot-npm-prompt-0-2-11-package-tgz /root/.npm/prompt/0.2.11/package.tgz
+595 silly lockFile 05d229db-ot-npm-prompt-0-2-11-package-tgz /root/.npm/prompt/0.2.11/package.tgz
+596 info preinstall prompt@0.2.11
+597 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/prompt/package.json
+598 verbose read json /usr/local/lib/node_modules/meteorite/node_modules/underscore/package.json
+599 silly lockFile b6004e82-eteorite-node-modules-underscore /usr/local/lib/node_modules/meteorite/node_modules/underscore
+600 silly lockFile b6004e82-eteorite-node-modules-underscore /usr/local/lib/node_modules/meteorite/node_modules/underscore
+601 silly lockFile 8e8566b2-npm-underscore-1-3-3-package-tgz /root/.npm/underscore/1.3.3/package.tgz
+602 silly lockFile 8e8566b2-npm-underscore-1-3-3-package-tgz /root/.npm/underscore/1.3.3/package.tgz
+603 info preinstall underscore@1.3.3
+604 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/underscore/package.json
+605 verbose readDependencies using package.json deps
+606 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec/package.json
+607 verbose readDependencies using package.json deps
+608 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/colors/package.json
+609 verbose readDependencies using package.json deps
+610 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/ddp/package.json
+611 verbose readDependencies using package.json deps
+612 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/wrench/package.json
+613 verbose readDependencies using package.json deps
+614 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/async/package.json
+615 verbose readDependencies using package.json deps
+616 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/fstream/package.json
+617 verbose readDependencies using package.json deps
+618 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/optimist/package.json
+619 verbose readDependencies using package.json deps
+620 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/prompt/package.json
+621 verbose readDependencies using package.json deps
+622 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/underscore/package.json
+623 verbose readDependencies using package.json deps
+624 silly resolved []
+625 verbose about to build /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec
+626 info build /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec
+627 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/rolling_timeout_exec/package.json
+628 verbose readDependencies using package.json deps
+629 silly resolved []
+630 verbose about to build /usr/local/lib/node_modules/meteorite/node_modules/colors
+631 info build /usr/local/lib/node_modules/meteorite/node_modules/colors
+632 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/colors/package.json
+633 verbose readDependencies using package.json deps
+634 verbose readDependencies using package.json deps
+635 silly resolved []
+636 verbose about to build /usr/local/lib/node_modules/meteorite/node_modules/wrench
+637 info build /usr/local/lib/node_modules/meteorite/node_modules/wrench
+638 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/wrench/package.json
+639 verbose readDependencies using package.json deps
+640 silly resolved []
+641 verbose about to build /usr/local/lib/node_modules/meteorite/node_modules/async
+642 info build /usr/local/lib/node_modules/meteorite/node_modules/async
+643 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/async/package.json
+644 verbose readDependencies using package.json deps
+645 verbose readDependencies using package.json deps
+646 verbose readDependencies using package.json deps
+647 verbose readDependencies using package.json deps
+648 silly resolved []
+649 verbose about to build /usr/local/lib/node_modules/meteorite/node_modules/underscore
+650 info build /usr/local/lib/node_modules/meteorite/node_modules/underscore
+651 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/underscore/package.json
+652 verbose linkStuff [ true,
+652 verbose linkStuff   '/usr/local/lib/node_modules',
+652 verbose linkStuff   false,
+652 verbose linkStuff   '/usr/local/lib/node_modules/meteorite/node_modules' ]
+653 info linkStuff rolling_timeout_exec@0.0.1
+654 verbose linkBins rolling_timeout_exec@0.0.1
+655 verbose linkMans rolling_timeout_exec@0.0.1
+656 verbose rebuildBundles rolling_timeout_exec@0.0.1
+657 verbose linkStuff [ true,
+657 verbose linkStuff   '/usr/local/lib/node_modules',
+657 verbose linkStuff   false,
+657 verbose linkStuff   '/usr/local/lib/node_modules/meteorite/node_modules' ]
+658 info linkStuff colors@0.6.0-1
+659 verbose linkBins colors@0.6.0-1
+660 verbose linkMans colors@0.6.0-1
+661 verbose rebuildBundles colors@0.6.0-1
+662 verbose linkStuff [ true,
+662 verbose linkStuff   '/usr/local/lib/node_modules',
+662 verbose linkStuff   false,
+662 verbose linkStuff   '/usr/local/lib/node_modules/meteorite/node_modules' ]
+663 info linkStuff wrench@1.3.9
+664 verbose linkBins wrench@1.3.9
+665 verbose linkMans wrench@1.3.9
+666 verbose rebuildBundles wrench@1.3.9
+667 verbose linkStuff [ true,
+667 verbose linkStuff   '/usr/local/lib/node_modules',
+667 verbose linkStuff   false,
+667 verbose linkStuff   '/usr/local/lib/node_modules/meteorite/node_modules' ]
+668 info linkStuff async@0.2.9
+669 verbose linkBins async@0.2.9
+670 verbose linkMans async@0.2.9
+671 verbose rebuildBundles async@0.2.9
+672 verbose linkStuff [ true,
+672 verbose linkStuff   '/usr/local/lib/node_modules',
+672 verbose linkStuff   false,
+672 verbose linkStuff   '/usr/local/lib/node_modules/meteorite/node_modules' ]
+673 info linkStuff underscore@1.3.3
+674 verbose linkBins underscore@1.3.3
+675 verbose linkMans underscore@1.3.3
+676 verbose rebuildBundles underscore@1.3.3
+677 verbose cache add [ 'meteor-ejson@>=0.6.3', null ]
+678 verbose cache add name=undefined spec="meteor-ejson@>=0.6.3" args=["meteor-ejson@>=0.6.3",null]
+679 verbose parsed url { pathname: 'meteor-ejson@%3E=0.6.3',
+679 verbose parsed url   path: 'meteor-ejson@%3E=0.6.3',
+679 verbose parsed url   href: 'meteor-ejson@%3E=0.6.3' }
+680 verbose cache add name="meteor-ejson" spec=">=0.6.3" args=["meteor-ejson",">=0.6.3"]
+681 verbose parsed url { pathname: '%3E=0.6.3', path: '%3E=0.6.3', href: '%3E=0.6.3' }
+682 verbose addNamed [ 'meteor-ejson', '>=0.6.3' ]
+683 verbose addNamed [ null, '>=0.6.3' ]
+684 silly lockFile 9be2882d-meteor-ejson-0-6-3 meteor-ejson@>=0.6.3
+685 verbose lock meteor-ejson@>=0.6.3 /root/.npm/9be2882d-meteor-ejson-0-6-3.lock
+686 verbose cache add [ 'node-srp@>=0.0.1', null ]
+687 verbose cache add name=undefined spec="node-srp@>=0.0.1" args=["node-srp@>=0.0.1",null]
+688 verbose parsed url { pathname: 'node-srp@%3E=0.0.1',
+688 verbose parsed url   path: 'node-srp@%3E=0.0.1',
+688 verbose parsed url   href: 'node-srp@%3E=0.0.1' }
+689 verbose cache add name="node-srp" spec=">=0.0.1" args=["node-srp",">=0.0.1"]
+690 verbose parsed url { pathname: '%3E=0.0.1', path: '%3E=0.0.1', href: '%3E=0.0.1' }
+691 verbose addNamed [ 'node-srp', '>=0.0.1' ]
+692 verbose addNamed [ null, '>=0.0.1' ]
+693 silly lockFile 1537e472-node-srp-0-0-1 node-srp@>=0.0.1
+694 verbose lock node-srp@>=0.0.1 /root/.npm/1537e472-node-srp-0-0-1.lock
+695 verbose cache add [ 'graceful-fs@^4.1.2', null ]
+696 verbose cache add name=undefined spec="graceful-fs@^4.1.2" args=["graceful-fs@^4.1.2",null]
+697 verbose parsed url { pathname: 'graceful-fs@^4.1.2',
+697 verbose parsed url   path: 'graceful-fs@^4.1.2',
+697 verbose parsed url   href: 'graceful-fs@^4.1.2' }
+698 verbose cache add name="graceful-fs" spec="^4.1.2" args=["graceful-fs","^4.1.2"]
+699 verbose parsed url { pathname: '^4.1.2', path: '^4.1.2', href: '^4.1.2' }
+700 verbose addNamed [ 'graceful-fs', '^4.1.2' ]
+701 verbose addNamed [ null, null ]
+702 silly lockFile 587282b0-graceful-fs-4-1-2 graceful-fs@^4.1.2
+703 verbose lock graceful-fs@^4.1.2 /root/.npm/587282b0-graceful-fs-4-1-2.lock
+704 verbose cache add [ 'inherits@~2.0.0', null ]
+705 verbose cache add name=undefined spec="inherits@~2.0.0" args=["inherits@~2.0.0",null]
+706 verbose parsed url { pathname: 'inherits@~2.0.0',
+706 verbose parsed url   path: 'inherits@~2.0.0',
+706 verbose parsed url   href: 'inherits@~2.0.0' }
+707 verbose cache add name="inherits" spec="~2.0.0" args=["inherits","~2.0.0"]
+708 verbose parsed url { pathname: '~2.0.0', path: '~2.0.0', href: '~2.0.0' }
+709 verbose addNamed [ 'inherits', '~2.0.0' ]
+710 verbose addNamed [ null, '>=2.0.0- <2.1.0-' ]
+711 silly lockFile e2566bb4-inherits-2-0-0 inherits@~2.0.0
+712 verbose lock inherits@~2.0.0 /root/.npm/e2566bb4-inherits-2-0-0.lock
+713 verbose cache add [ 'wordwrap@~0.0.2', null ]
+714 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+715 verbose parsed url { pathname: 'wordwrap@~0.0.2',
+715 verbose parsed url   path: 'wordwrap@~0.0.2',
+715 verbose parsed url   href: 'wordwrap@~0.0.2' }
+716 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+717 verbose parsed url { pathname: '~0.0.2', path: '~0.0.2', href: '~0.0.2' }
+718 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+719 verbose addNamed [ null, '>=0.0.2- <0.1.0-' ]
+720 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+721 verbose lock wordwrap@~0.0.2 /root/.npm/8bd42136-wordwrap-0-0-2.lock
+722 verbose cache add [ 'minimist@~0.0.1', null ]
+723 verbose cache add name=undefined spec="minimist@~0.0.1" args=["minimist@~0.0.1",null]
+724 verbose parsed url { pathname: 'minimist@~0.0.1',
+724 verbose parsed url   path: 'minimist@~0.0.1',
+724 verbose parsed url   href: 'minimist@~0.0.1' }
+725 verbose cache add name="minimist" spec="~0.0.1" args=["minimist","~0.0.1"]
+726 verbose parsed url { pathname: '~0.0.1', path: '~0.0.1', href: '~0.0.1' }
+727 verbose addNamed [ 'minimist', '~0.0.1' ]
+728 verbose addNamed [ null, '>=0.0.1- <0.1.0-' ]
+729 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+730 verbose lock minimist@~0.0.1 /root/.npm/7a855a96-minimist-0-0-1.lock
+731 verbose cache add [ 'pkginfo@0.x.x', null ]
+732 verbose cache add name=undefined spec="pkginfo@0.x.x" args=["pkginfo@0.x.x",null]
+733 verbose parsed url { pathname: 'pkginfo@0.x.x',
+733 verbose parsed url   path: 'pkginfo@0.x.x',
+733 verbose parsed url   href: 'pkginfo@0.x.x' }
+734 verbose cache add name="pkginfo" spec="0.x.x" args=["pkginfo","0.x.x"]
+735 verbose parsed url { pathname: '0.x.x', path: '0.x.x', href: '0.x.x' }
+736 verbose addNamed [ 'pkginfo', '0.x.x' ]
+737 verbose addNamed [ null, '>=0.0.0- <1.0.0-' ]
+738 silly lockFile 67f4d2cb-pkginfo-0-x-x pkginfo@0.x.x
+739 verbose lock pkginfo@0.x.x /root/.npm/67f4d2cb-pkginfo-0-x-x.lock
+740 verbose cache add [ 'read@1.0.x', null ]
+741 verbose cache add name=undefined spec="read@1.0.x" args=["read@1.0.x",null]
+742 verbose parsed url { pathname: 'read@1.0.x',
+742 verbose parsed url   path: 'read@1.0.x',
+742 verbose parsed url   href: 'read@1.0.x' }
+743 verbose cache add name="read" spec="1.0.x" args=["read","1.0.x"]
+744 verbose parsed url { pathname: '1.0.x', path: '1.0.x', href: '1.0.x' }
+745 verbose addNamed [ 'read', '1.0.x' ]
+746 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+747 silly lockFile acd4039d-read-1-0-x read@1.0.x
+748 verbose lock read@1.0.x /root/.npm/acd4039d-read-1-0-x.lock
+749 verbose cache add [ 'faye-websocket@~0.7.1', null ]
+750 verbose cache add name=undefined spec="faye-websocket@~0.7.1" args=["faye-websocket@~0.7.1",null]
+751 verbose parsed url { pathname: 'faye-websocket@~0.7.1',
+751 verbose parsed url   path: 'faye-websocket@~0.7.1',
+751 verbose parsed url   href: 'faye-websocket@~0.7.1' }
+752 verbose cache add name="faye-websocket" spec="~0.7.1" args=["faye-websocket","~0.7.1"]
+753 verbose parsed url { pathname: '~0.7.1', path: '~0.7.1', href: '~0.7.1' }
+754 verbose addNamed [ 'faye-websocket', '~0.7.1' ]
+755 verbose addNamed [ null, '>=0.7.1- <0.8.0-' ]
+756 silly lockFile 97ca02c6-faye-websocket-0-7-1 faye-websocket@~0.7.1
+757 verbose lock faye-websocket@~0.7.1 /root/.npm/97ca02c6-faye-websocket-0-7-1.lock
+758 verbose cache add [ 'mkdirp@>=0.5 0', null ]
+759 verbose cache add name=undefined spec="mkdirp@>=0.5 0" args=["mkdirp@>=0.5 0",null]
+760 verbose parsed url { pathname: 'mkdirp@%3E=0.5%200',
+760 verbose parsed url   path: 'mkdirp@%3E=0.5%200',
+760 verbose parsed url   href: 'mkdirp@%3E=0.5%200' }
+761 verbose cache add name="mkdirp" spec=">=0.5 0" args=["mkdirp",">=0.5 0"]
+762 verbose parsed url { pathname: '%3E=0.5%200',
+762 verbose parsed url   path: '%3E=0.5%200',
+762 verbose parsed url   href: '%3E=0.5%200' }
+763 verbose addNamed [ 'mkdirp', '>=0.5 0' ]
+764 verbose addNamed [ null, '>=0.5.0- >=0.0.0- <1.0.0-' ]
+765 silly lockFile a5f2dce7-mkdirp-0-5-0 mkdirp@>=0.5 0
+766 verbose lock mkdirp@>=0.5 0 /root/.npm/a5f2dce7-mkdirp-0-5-0.lock
+767 verbose cache add [ 'revalidator@0.1.x', null ]
+768 verbose cache add name=undefined spec="revalidator@0.1.x" args=["revalidator@0.1.x",null]
+769 verbose parsed url { pathname: 'revalidator@0.1.x',
+769 verbose parsed url   path: 'revalidator@0.1.x',
+769 verbose parsed url   href: 'revalidator@0.1.x' }
+770 verbose cache add name="revalidator" spec="0.1.x" args=["revalidator","0.1.x"]
+771 verbose parsed url { pathname: '0.1.x', path: '0.1.x', href: '0.1.x' }
+772 verbose addNamed [ 'revalidator', '0.1.x' ]
+773 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+774 silly lockFile 0837132e-revalidator-0-1-x revalidator@0.1.x
+775 verbose lock revalidator@0.1.x /root/.npm/0837132e-revalidator-0-1-x.lock
+776 verbose cache add [ 'rimraf@2', null ]
+777 verbose cache add name=undefined spec="rimraf@2" args=["rimraf@2",null]
+778 verbose parsed url { pathname: 'rimraf@2', path: 'rimraf@2', href: 'rimraf@2' }
+779 verbose cache add name="rimraf" spec="2" args=["rimraf","2"]
+780 verbose parsed url { pathname: '2', path: '2', href: '2' }
+781 verbose addNamed [ 'rimraf', '2' ]
+782 verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+783 silly lockFile 8c081391-rimraf-2 rimraf@2
+784 verbose lock rimraf@2 /root/.npm/8c081391-rimraf-2.lock
+785 verbose cache add [ 'utile@0.2.x', null ]
+786 verbose cache add name=undefined spec="utile@0.2.x" args=["utile@0.2.x",null]
+787 verbose parsed url { pathname: 'utile@0.2.x',
+787 verbose parsed url   path: 'utile@0.2.x',
+787 verbose parsed url   href: 'utile@0.2.x' }
+788 verbose cache add name="utile" spec="0.2.x" args=["utile","0.2.x"]
+789 verbose parsed url { pathname: '0.2.x', path: '0.2.x', href: '0.2.x' }
+790 verbose addNamed [ 'utile', '0.2.x' ]
+791 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+792 silly lockFile f92ad74f-utile-0-2-x utile@0.2.x
+793 verbose lock utile@0.2.x /root/.npm/f92ad74f-utile-0-2-x.lock
+794 verbose cache add [ 'winston@0.6.x', null ]
+795 verbose cache add name=undefined spec="winston@0.6.x" args=["winston@0.6.x",null]
+796 verbose parsed url { pathname: 'winston@0.6.x',
+796 verbose parsed url   path: 'winston@0.6.x',
+796 verbose parsed url   href: 'winston@0.6.x' }
+797 verbose cache add name="winston" spec="0.6.x" args=["winston","0.6.x"]
+798 verbose parsed url { pathname: '0.6.x', path: '0.6.x', href: '0.6.x' }
+799 verbose addNamed [ 'winston', '0.6.x' ]
+800 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+801 silly lockFile e1f74e0f-winston-0-6-x winston@0.6.x
+802 verbose lock winston@0.6.x /root/.npm/e1f74e0f-winston-0-6-x.lock
+803 info install rolling_timeout_exec@0.0.1
+804 info install colors@0.6.0-1
+805 info install wrench@1.3.9
+806 info install async@0.2.9
+807 info install underscore@1.3.3
+808 silly addNameRange { name: 'meteor-ejson', range: '>=0.6.3', hasData: false }
+809 silly addNameRange { name: 'node-srp', range: '>=0.0.1', hasData: false }
+810 info addNameTag [ 'graceful-fs', '^4.1.2' ]
+811 silly addNameRange { name: 'inherits', range: '>=2.0.0- <2.1.0-', hasData: false }
+812 silly addNameRange { name: 'wordwrap', range: '>=0.0.2- <0.1.0-', hasData: false }
+813 silly addNameRange { name: 'minimist', range: '>=0.0.1- <0.1.0-', hasData: false }
+814 silly addNameRange { name: 'pkginfo', range: '>=0.0.0- <1.0.0-', hasData: false }
+815 silly addNameRange { name: 'read', range: '>=1.0.0- <1.1.0-', hasData: false }
+816 silly addNameRange { name: 'faye-websocket',
+816 silly addNameRange   range: '>=0.7.1- <0.8.0-',
+816 silly addNameRange   hasData: false }
+817 silly addNameRange { name: 'mkdirp',
+817 silly addNameRange   range: '>=0.5.0- >=0.0.0- <1.0.0-',
+817 silly addNameRange   hasData: false }
+818 silly addNameRange { name: 'revalidator',
+818 silly addNameRange   range: '>=0.1.0- <0.2.0-',
+818 silly addNameRange   hasData: false }
+819 silly addNameRange { name: 'rimraf', range: '>=2.0.0- <3.0.0-', hasData: false }
+820 silly addNameRange { name: 'utile', range: '>=0.2.0- <0.3.0-', hasData: false }
+821 silly addNameRange { name: 'winston', range: '>=0.6.0- <0.7.0-', hasData: false }
+822 info postinstall rolling_timeout_exec@0.0.1
+823 info postinstall colors@0.6.0-1
+824 info postinstall wrench@1.3.9
+825 info postinstall async@0.2.9
+826 info postinstall underscore@1.3.3
+827 verbose url raw meteor-ejson
+828 verbose url resolving [ 'https://registry.npmjs.org/', './meteor-ejson' ]
+829 verbose url resolved https://registry.npmjs.org/meteor-ejson
+830 info trying registry request attempt 1 at 04:06:55
+831 verbose etag "D66Y4B4BLOIYBH97LDFG51S8L"
+832 http GET https://registry.npmjs.org/meteor-ejson
+833 verbose url raw node-srp
+834 verbose url resolving [ 'https://registry.npmjs.org/', './node-srp' ]
+835 verbose url resolved https://registry.npmjs.org/node-srp
+836 info trying registry request attempt 1 at 04:06:55
+837 verbose etag "DIQJ42QX0QZBS9UVCK4GDBSID"
+838 http GET https://registry.npmjs.org/node-srp
+839 verbose url raw graceful-fs
+840 verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+841 verbose url resolved https://registry.npmjs.org/graceful-fs
+842 info trying registry request attempt 1 at 04:06:55
+843 verbose etag "5PFKCUZ7Y0U2YTBK4JXYLQB0D"
+844 http GET https://registry.npmjs.org/graceful-fs
+845 verbose url raw wordwrap
+846 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+847 verbose url resolved https://registry.npmjs.org/wordwrap
+848 info trying registry request attempt 1 at 04:06:55
+849 verbose etag "73LBTAP4GYYX0WY7YM3IQ89SJ"
+850 http GET https://registry.npmjs.org/wordwrap
+851 verbose url raw minimist
+852 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+853 verbose url resolved https://registry.npmjs.org/minimist
+854 info trying registry request attempt 1 at 04:06:55
+855 verbose etag "B29QSYYF7RNCPGBB6FR1HKEM9"
+856 http GET https://registry.npmjs.org/minimist
+857 verbose url raw pkginfo
+858 verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo' ]
+859 verbose url resolved https://registry.npmjs.org/pkginfo
+860 info trying registry request attempt 1 at 04:06:55
+861 verbose etag "CLWKG7UL6XEZR9ZXXVTOH21VS"
+862 http GET https://registry.npmjs.org/pkginfo
+863 verbose url raw read
+864 verbose url resolving [ 'https://registry.npmjs.org/', './read' ]
+865 verbose url resolved https://registry.npmjs.org/read
+866 info trying registry request attempt 1 at 04:06:55
+867 verbose etag "4NE5FAOQPK1SCERKDI38FDBM6"
+868 http GET https://registry.npmjs.org/read
+869 verbose url raw faye-websocket
+870 verbose url resolving [ 'https://registry.npmjs.org/', './faye-websocket' ]
+871 verbose url resolved https://registry.npmjs.org/faye-websocket
+872 info trying registry request attempt 1 at 04:06:55
+873 verbose etag "6IWLVLS53963B3DEA36MEAKHE"
+874 http GET https://registry.npmjs.org/faye-websocket
+875 verbose url raw revalidator
+876 verbose url resolving [ 'https://registry.npmjs.org/', './revalidator' ]
+877 verbose url resolved https://registry.npmjs.org/revalidator
+878 info trying registry request attempt 1 at 04:06:55
+879 verbose etag "EMHVUP2BRBQ8VH5IL3Y6HHXA5"
+880 http GET https://registry.npmjs.org/revalidator
+881 verbose url raw mkdirp
+882 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+883 verbose url resolved https://registry.npmjs.org/mkdirp
+884 info trying registry request attempt 1 at 04:06:55
+885 verbose etag "1ZHW085S0QITZK1N5T1CK63KQ"
+886 http GET https://registry.npmjs.org/mkdirp
+887 verbose url raw rimraf
+888 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+889 verbose url resolved https://registry.npmjs.org/rimraf
+890 info trying registry request attempt 1 at 04:06:55
+891 verbose etag "V1GB7VJKBGZHUQN1QPWAVDOK"
+892 http GET https://registry.npmjs.org/rimraf
+893 verbose url raw utile
+894 verbose url resolving [ 'https://registry.npmjs.org/', './utile' ]
+895 verbose url resolved https://registry.npmjs.org/utile
+896 info trying registry request attempt 1 at 04:06:55
+897 verbose etag "602ZF12U0W13D8KMFYQ9W9SM3"
+898 http GET https://registry.npmjs.org/utile
+899 verbose url raw winston
+900 verbose url resolving [ 'https://registry.npmjs.org/', './winston' ]
+901 verbose url resolved https://registry.npmjs.org/winston
+902 info trying registry request attempt 1 at 04:06:55
+903 verbose etag "63VGL4HMG36N2X15AYL9IPWT5"
+904 http GET https://registry.npmjs.org/winston
+905 verbose url raw inherits
+906 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+907 verbose url resolved https://registry.npmjs.org/inherits
+908 info trying registry request attempt 1 at 04:06:55
+909 verbose etag "4FJ6NZOHSPQG4XHIJ9FQBFUBG"
+910 http GET https://registry.npmjs.org/inherits
+911 http 304 https://registry.npmjs.org/meteor-ejson
+912 silly registry.get cb [ 304,
+912 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:55 GMT',
+912 silly registry.get     via: '1.1 varnish',
+912 silly registry.get     'cache-control': 'max-age=60',
+912 silly registry.get     etag: '"D66Y4B4BLOIYBH97LDFG51S8L"',
+912 silly registry.get     age: '0',
+912 silly registry.get     connection: 'keep-alive',
+912 silly registry.get     'x-served-by': 'cache-iad2146-IAD',
+912 silly registry.get     'x-cache': 'MISS',
+912 silly registry.get     'x-cache-hits': '0',
+912 silly registry.get     'x-timer': 'S1449461215.897777,VS0,VE16',
+912 silly registry.get     vary: 'Accept' } ]
+913 verbose etag meteor-ejson from cache
+914 silly addNameRange number 2 { name: 'meteor-ejson', range: '>=0.6.3', hasData: true }
+915 silly addNameRange versions [ 'meteor-ejson', [ '0.6.2', '0.6.3' ] ]
+916 verbose addNamed [ 'meteor-ejson', '0.6.3' ]
+917 verbose addNamed [ '0.6.3', '0.6.3' ]
+918 silly lockFile a3f3df6d-meteor-ejson-0-6-3 meteor-ejson@0.6.3
+919 verbose lock meteor-ejson@0.6.3 /root/.npm/a3f3df6d-meteor-ejson-0-6-3.lock
+920 verbose read json /root/.npm/meteor-ejson/0.6.3/package/package.json
+921 http 304 https://registry.npmjs.org/graceful-fs
+922 silly registry.get cb [ 304,
+922 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:55 GMT',
+922 silly registry.get     via: '1.1 varnish',
+922 silly registry.get     'cache-control': 'max-age=60',
+922 silly registry.get     etag: '"5PFKCUZ7Y0U2YTBK4JXYLQB0D"',
+922 silly registry.get     age: '19',
+922 silly registry.get     connection: 'keep-alive',
+922 silly registry.get     'x-served-by': 'cache-iad2138-IAD',
+922 silly registry.get     'x-cache': 'HIT',
+922 silly registry.get     'x-cache-hits': '3',
+922 silly registry.get     'x-timer': 'S1449461215.939320,VS0,VE0',
+922 silly registry.get     vary: 'Accept' } ]
+923 verbose etag graceful-fs from cache
+924 http 304 https://registry.npmjs.org/minimist
+925 silly registry.get cb [ 304,
+925 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:55 GMT',
+925 silly registry.get     via: '1.1 varnish',
+925 silly registry.get     'cache-control': 'max-age=60',
+925 silly registry.get     etag: '"B29QSYYF7RNCPGBB6FR1HKEM9"',
+925 silly registry.get     age: '44',
+925 silly registry.get     connection: 'keep-alive',
+925 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+925 silly registry.get     'x-cache': 'HIT',
+925 silly registry.get     'x-cache-hits': '7',
+925 silly registry.get     'x-timer': 'S1449461215.937465,VS0,VE0',
+925 silly registry.get     vary: 'Accept' } ]
+926 verbose etag minimist from cache
+927 silly lockFile a3f3df6d-meteor-ejson-0-6-3 meteor-ejson@0.6.3
+928 silly lockFile a3f3df6d-meteor-ejson-0-6-3 meteor-ejson@0.6.3
+929 silly lockFile 9be2882d-meteor-ejson-0-6-3 meteor-ejson@>=0.6.3
+930 silly lockFile 9be2882d-meteor-ejson-0-6-3 meteor-ejson@>=0.6.3
+931 silly lockFile 587282b0-graceful-fs-4-1-2 graceful-fs@^4.1.2
+932 silly lockFile 587282b0-graceful-fs-4-1-2 graceful-fs@^4.1.2
+933 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1- <0.1.0-', hasData: true }
+934 silly addNameRange versions [ 'minimist',
+934 silly addNameRange   [ '0.0.0',
+934 silly addNameRange     '0.0.1',
+934 silly addNameRange     '0.0.2',
+934 silly addNameRange     '0.0.3',
+934 silly addNameRange     '0.0.4',
+934 silly addNameRange     '0.0.5',
+934 silly addNameRange     '0.0.6',
+934 silly addNameRange     '0.0.7',
+934 silly addNameRange     '0.0.8',
+934 silly addNameRange     '0.0.9',
+934 silly addNameRange     '0.0.10',
+934 silly addNameRange     '0.1.0',
+934 silly addNameRange     '0.2.0',
+934 silly addNameRange     '1.0.0',
+934 silly addNameRange     '1.1.0',
+934 silly addNameRange     '1.1.1',
+934 silly addNameRange     '1.1.2',
+934 silly addNameRange     '1.1.3',
+934 silly addNameRange     '1.2.0' ] ]
+935 verbose addNamed [ 'minimist', '0.0.10' ]
+936 verbose addNamed [ '0.0.10', '0.0.10' ]
+937 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+938 verbose lock minimist@0.0.10 /root/.npm/92f0553b-minimist-0-0-10.lock
+939 verbose about to build /usr/local/lib/node_modules/meteorite/node_modules/fstream
+940 info /usr/local/lib/node_modules/meteorite/node_modules/fstream unbuild
+941 verbose from cache /usr/local/lib/node_modules/meteorite/node_modules/fstream/package.json
+942 info preuninstall fstream@1.0.8
+943 http 304 https://registry.npmjs.org/pkginfo
+944 silly registry.get cb [ 304,
+944 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:55 GMT',
+944 silly registry.get     via: '1.1 varnish',
+944 silly registry.get     'cache-control': 'max-age=60',
+944 silly registry.get     etag: '"CLWKG7UL6XEZR9ZXXVTOH21VS"',
+944 silly registry.get     age: '34',
+944 silly registry.get     connection: 'keep-alive',
+944 silly registry.get     'x-served-by': 'cache-iad2146-IAD',
+944 silly registry.get     'x-cache': 'HIT',
+944 silly registry.get     'x-cache-hits': '2',
+944 silly registry.get     'x-timer': 'S1449461215.950559,VS0,VE0',
+944 silly registry.get     vary: 'Accept' } ]
+945 verbose etag pkginfo from cache
+946 verbose read json /root/.npm/minimist/0.0.10/package/package.json
+947 info uninstall fstream@1.0.8
+948 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/meteorite/node_modules unbuild fstream@1.0.8
+949 info postuninstall fstream@1.0.8
+950 silly addNameRange number 2 { name: 'pkginfo', range: '>=0.0.0- <1.0.0-', hasData: true }
+951 silly addNameRange versions [ 'pkginfo', [ '0.2.1', '0.2.2', '0.2.3', '0.3.0', '0.3.1' ] ]
+952 verbose addNamed [ 'pkginfo', '0.3.1' ]
+953 verbose addNamed [ '0.3.1', '0.3.1' ]
+954 silly lockFile 42d5678e-pkginfo-0-3-1 pkginfo@0.3.1
+955 verbose lock pkginfo@0.3.1 /root/.npm/42d5678e-pkginfo-0-3-1.lock
+956 verbose read json /root/.npm/pkginfo/0.3.1/package/package.json
+957 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+958 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+959 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+960 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+961 verbose about to build /usr/local/lib/node_modules/meteorite
+962 info /usr/local/lib/node_modules/meteorite unbuild
+963 verbose from cache /usr/local/lib/node_modules/meteorite/package.json
+964 info preuninstall meteorite@0.9.3
+965 http 304 https://registry.npmjs.org/read
+966 silly registry.get cb [ 304,
+966 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:56 GMT',
+966 silly registry.get     via: '1.1 varnish',
+966 silly registry.get     'cache-control': 'max-age=60',
+966 silly registry.get     etag: '"4NE5FAOQPK1SCERKDI38FDBM6"',
+966 silly registry.get     age: '24',
+966 silly registry.get     connection: 'keep-alive',
+966 silly registry.get     'x-served-by': 'cache-iad2138-IAD',
+966 silly registry.get     'x-cache': 'HIT',
+966 silly registry.get     'x-cache-hits': '1',
+966 silly registry.get     'x-timer': 'S1449461216.004435,VS0,VE0',
+966 silly registry.get     vary: 'Accept' } ]
+967 verbose etag read from cache
+968 http 304 https://registry.npmjs.org/faye-websocket
+969 silly registry.get cb [ 304,
+969 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:56 GMT',
+969 silly registry.get     via: '1.1 varnish',
+969 silly registry.get     'cache-control': 'max-age=60',
+969 silly registry.get     etag: '"6IWLVLS53963B3DEA36MEAKHE"',
+969 silly registry.get     age: '55',
+969 silly registry.get     connection: 'keep-alive',
+969 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+969 silly registry.get     'x-cache': 'HIT',
+969 silly registry.get     'x-cache-hits': '1',
+969 silly registry.get     'x-timer': 'S1449461216.001874,VS0,VE0',
+969 silly registry.get     vary: 'Accept' } ]
+970 verbose etag faye-websocket from cache
+971 http 304 https://registry.npmjs.org/wordwrap
+972 silly registry.get cb [ 304,
+972 silly registry.get   { date: 'Mon, 07 Dec 2015 04:06:55 GMT',
+972 silly registry.get     via: '1.1 varnish',
+972 silly registry.get     'cache-control': 'max-age=60',
+972 silly registry.get     etag: '"73LBTAP4GYYX0WY7YM3IQ89SJ"',
+972 silly registry.get     age: '57',
+972 silly registry.get     connection: 'keep-alive',
+972 silly registry.get     'x-served-by': 'cache-iad2130-IAD',
+972 silly registry.get     'x-cache': 'HIT',
+972 silly registry.get     'x-cache-hits': '1',
+972 silly registry.get     'x-timer': 'S1449461215.980012,VS0,VE0',
+972 silly registry.get     vary: 'Accept' } ]
+973 verbose etag wordwrap from cache
+974 silly lockFile 42d5678e-pkginfo-0-3-1 pkginfo@0.3.1
+975 silly lockFile 42d5678e-pkginfo-0-3-1 pkginfo@0.3.1
+976 info uninstall meteorite@0.9.3
+977 silly lockFile 67f4d2cb-pkginfo-0-x-x pkginfo@0.x.x
+978 silly lockFile 67f4d2cb-pkginfo-0-x-x pkginfo@0.x.x
+979 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild meteorite@0.9.3
+980 verbose /usr/local/bin,[object Object] binRoot
+981 info postuninstall meteorite@0.9.3
+982 silly addNameRange number 2 { name: 'read', range: '>=1.0.0- <1.1.0-', hasData: true }
+983 silly addNameRange versions [ 'read',
+983 silly addNameRange   [ '0.0.1',
+983 silly addNameRange     '0.0.2',
+983 silly addNameRange     '0.0.3',
+983 silly addNameRange     '0.1.0',
+983 silly addNameRange     '0.1.1',
+983 silly addNameRange     '1.0.0',
+983 silly addNameRange     '1.0.1',
+983 silly addNameRange     '1.0.2',
+983 silly addNameRange     '1.0.3',
+983 silly addNameRange     '1.0.4',
+983 silly addNameRange     '1.0.5',
+983 silly addNameRange     '1.0.6',
+983 silly addNameRange     '1.0.7' ] ]
+984 verbose addNamed [ 'read', '1.0.7' ]
+985 verbose addNamed [ '1.0.7', '1.0.7' ]
+986 silly lockFile b71cc596-read-1-0-7 read@1.0.7
+987 verbose lock read@1.0.7 /root/.npm/b71cc596-read-1-0-7.lock
+988 silly addNameRange number 2 { name: 'faye-websocket',
+988 silly addNameRange   range: '>=0.7.1- <0.8.0-',
+988 silly addNameRange   hasData: true }
+989 silly addNameRange versions [ 'faye-websocket',
+989 silly addNameRange   [ '0.1.0',
+989 silly addNameRange     '0.1.1',
+989 silly addNameRange     '0.1.2',
+989 silly addNameRange     '0.2.0',
+989 silly addNameRange     '0.3.0',
+989 silly addNameRange     '0.3.1',
+989 silly addNameRange     '0.4.0',
+989 silly addNameRange     '0.4.1',
+989 silly addNameRange     '0.4.2',
+989 silly addNameRange     '0.4.3',
+989 silly addNameRange     '0.4.4',
+989 silly addNameRange     '0.5.0',
+989 silly addNameRange     '0.6.0',
+989 silly addNameRange     '0.6.1',
+989 silly addNameRange     '0.7.0',
+989 silly addNameRange     '0.7.1',
+989 silly addNameRange     '0.7.2',
+989 silly addNameRange     '0.7.3',
+989 silly addNameRange     '0.8.0',
+989 silly addNameRange     '0.8.1',
+989 silly addNameRange     '0.9.0',
+989 silly addNameRange     '0.9.1',
+989 silly addNameRange     '0.9.2',
+989 silly addNameRange     '0.9.3',
+989 silly addNameRange     '0.9.4',
+989 silly addNameRange     '0.10.0' ] ]
+990 verbose addNamed [ 'faye-websocket', '0.7.3' ]
+991 verbose addNamed [ '0.7.3', '0.7.3' ]
+992 silly lockFile f909c2fc-faye-websocket-0-7-3 faye-websocket@0.7.3
+993 verbose lock faye-websocket@0.7.3 /root/.npm/f909c2fc-faye-websocket-0-7-3.lock
+994 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2- <0.1.0-', hasData: true }
+995 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+996 verbose addNamed [ 'wordwrap', '0.0.3' ]
+997 verbose addNamed [ '0.0.3', '0.0.3' ]
+998 silly lockFile 62fc4320-wordwrap-0-0-3 wordwrap@0.0.3
+999 verbose lock wordwrap@0.0.3 /root/.npm/62fc4320-wordwrap-0-0-3.lock
+1000 verbose read json /root/.npm/read/1.0.7/package/package.json
+1001 verbose read json /root/.npm/faye-websocket/0.7.3/package/package.json
+1002 verbose read json /root/.npm/wordwrap/0.0.3/package/package.json
+1003 silly lockFile b71cc596-read-1-0-7 read@1.0.7
+1004 silly lockFile b71cc596-read-1-0-7 read@1.0.7
+1005 silly lockFile f909c2fc-faye-websocket-0-7-3 faye-websocket@0.7.3
+1006 silly lockFile f909c2fc-faye-websocket-0-7-3 faye-websocket@0.7.3
+1007 silly lockFile 62fc4320-wordwrap-0-0-3 wordwrap@0.0.3
+1008 silly lockFile 62fc4320-wordwrap-0-0-3 wordwrap@0.0.3
+1009 silly lockFile acd4039d-read-1-0-x read@1.0.x
+1010 silly lockFile acd4039d-read-1-0-x read@1.0.x
+1011 silly lockFile 97ca02c6-faye-websocket-0-7-1 faye-websocket@~0.7.1
+1012 silly lockFile 97ca02c6-faye-websocket-0-7-1 faye-websocket@~0.7.1
+1013 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+1014 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+1015 silly resolved [ { name: 'minimist',
+1015 silly resolved     version: '0.0.10',
+1015 silly resolved     description: 'parse argument options',
+1015 silly resolved     main: 'index.js',
+1015 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+1015 silly resolved     scripts: { test: 'tap test/*.js' },
+1015 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+1015 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+1015 silly resolved     homepage: 'https://github.com/substack/minimist',
+1015 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+1015 silly resolved     author:
+1015 silly resolved      { name: 'James Halliday',
+1015 silly resolved        email: 'mail@substack.net',
+1015 silly resolved        url: 'http://substack.net' },
+1015 silly resolved     license: 'MIT',
+1015 silly resolved     readme: '# minimist\n\nparse argument options\n\nThis module is the guts of optimist\'s argument parser without all the\nfanciful decoration.\n\n[![browser support](https://ci.testling.com/substack/minimist.png)](http://ci.testling.com/substack/minimist)\n\n[![build status](https://secure.travis-ci.org/substack/minimist.png)](http://travis-ci.org/substack/minimist)\n\n# example\n\n``` js\nvar argv = require(\'minimist\')(process.argv.slice(2));\nconsole.dir(argv);\n```\n\n```\n$ node example/parse.js -a beep -b boop\n{ _: [], a: \'beep\', b: \'boop\' }\n```\n\n```\n$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz\n{ _: [ \'foo\', \'bar\', \'baz\' ],\n  x: 3,\n  y: 4,\n  n: 5,\n  a: true,\n  b: true,\n  c: true,\n  beep: \'boop\' }\n```\n\n# methods\n\n``` js\nvar parseArgs = require(\'minimist\')\n```\n\n## var argv = parseArgs(args, opts={})\n\nReturn an argument object `argv` populated with the array arguments from `args`.\n\n`argv._` contains all the arguments that didn\'t have an option associated with\nthem.\n\nNumeric-looking arguments will be returned as numbers unless `opts.string` or\n`opts.boolean` is set for that argument name.\n\nAny arguments after `\'--\'` will not be parsed and will end up in `argv._`.\n\noptions can be:\n\n* `opts.string` - a string or array of strings argument names to always treat as\nstrings\n* `opts.boolean` - a string or array of strings to always treat as booleans\n* `opts.alias` - an object mapping string names to strings or arrays of string\nargument names to use as aliases\n* `opts.default` - an object mapping string argument names to default values\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install minimist\n```\n\n# license\n\nMIT\n',
+1015 silly resolved     readmeFilename: 'readme.markdown',
+1015 silly resolved     _id: 'minimist@0.0.10',
+1015 silly resolved     _from: 'minimist@~0.0.1' },
+1015 silly resolved   { name: 'wordwrap',
+1015 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+1015 silly resolved     version: '0.0.3',
+1015 silly resolved     repository:
+1015 silly resolved      { type: 'git',
+1015 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+1015 silly resolved     main: './index.js',
+1015 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+1015 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+1015 silly resolved     scripts: { test: 'expresso' },
+1015 silly resolved     devDependencies: { expresso: '=0.7.x' },
+1015 silly resolved     engines: { node: '>=0.4.0' },
+1015 silly resolved     license: 'MIT',
+1015 silly resolved     author:
+1015 silly resolved      { name: 'James Halliday',
+1015 silly resolved        email: 'mail@substack.net',
+1015 silly resolved        url: 'http://substack.net' },
+1015 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+1015 silly resolved     readmeFilename: 'README.markdown',
+1015 silly resolved     _id: 'wordwrap@0.0.3',
+1015 silly resolved     _from: 'wordwrap@~0.0.2' } ]
+1016 info install minimist@0.0.10 into /usr/local/lib/node_modules/meteorite/node_modules/optimist
+1017 info install wordwrap@0.0.3 into /usr/local/lib/node_modules/meteorite/node_modules/optimist
+1018 info installOne minimist@0.0.10
+1019 info installOne wordwrap@0.0.3
+1020 verbose from cache /root/.npm/minimist/0.0.10/package/package.json
+1021 verbose from cache /root/.npm/wordwrap/0.0.3/package/package.json
+1022 error Error: No compatible version found: graceful-fs@'^4.1.2'
+1022 error Valid install targets:
+1022 error ["1.0.0","1.0.1","1.0.2","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","1.1.5","1.1.6","1.1.7","1.1.8","1.1.9","1.1.10","1.1.11","1.1.12","1.1.13","1.1.14","1.2.0","1.2.1","1.2.2","1.2.3","2.0.0","2.0.1","2.0.2","2.0.3","3.0.0","3.0.1","3.0.2","3.0.3","3.0.4","3.0.5","3.0.6","3.0.7","3.0.8","4.1.0","4.1.1","4.1.2"]
+1022 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:685:10)
+1022 error     at /usr/local/lib/node_modules/npm/lib/cache.js:607:10
+1022 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+1022 error     at Object.oncomplete (fs.js:297:15)
+1023 error If you need help, you may report this log at:
+1023 error     <http://github.com/isaacs/npm/issues>
+1023 error or email it to:
+1023 error     <npm-@googlegroups.com>
+1024 error System Linux 3.2.0-23-generic-pae
+1025 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "meteorite"
+1026 error cwd /knowledgelinux
+1027 error node -v v0.8.23
+1028 error npm -v 1.2.18
+1029 verbose exit [ 1, true ]
